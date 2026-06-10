@@ -1,0 +1,24 @@
+{
+  "associatedLayout": "Untitled scene",
+  "name": "Untitled external events",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "NewSprite",
+            "=",
+            "275 ",
+            "=",
+            "4"
+          ]
+        }
+      ]
+    }
+  ]
+}

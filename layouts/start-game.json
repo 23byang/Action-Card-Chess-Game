@@ -1,31 +1,73 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "Start_32Game",
+  "name": "Start Game",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
   "v": 249,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 90.25,
     "gridHeight": 90.25,
     "gridDepth": 32,
-    "gridOffsetX": 0,
-    "gridOffsetY": 0,
+    "gridOffsetX": 102.75,
+    "gridOffsetY": 200,
     "gridOffsetZ": 0,
     "gridColor": 0,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.7370816317994062,
+    "snap": false,
+    "zoomFactor": 0.8700232859857332,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "DraggablePiece",
+      "objects": [
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "NewSprite2"
+        },
+        {
+          "name": "NewSprite3"
+        },
+        {
+          "name": "NewSprite4"
+        },
+        {
+          "name": "NewSprite5"
+        },
+        {
+          "name": "NewSprite6"
+        },
+        {
+          "name": "NewSprite7"
+        },
+        {
+          "name": "NewSprite8"
+        },
+        {
+          "name": "NewSprite9"
+        },
+        {
+          "name": "NewSprite10"
+        },
+        {
+          "name": "NewSprite11"
+        },
+        {
+          "name": "NewSprite12"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "Board",
@@ -359,15 +401,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 717,
+      "height": 720,
       "keepRatio": true,
       "layer": "",
       "name": "NewTileMap",
       "persistentUuid": "4d4763d0-9cbb-4f1e-90ec-346fc2c7139c",
-      "width": 717,
-      "x": 275,
-      "y": 2,
-      "zOrder": 1,
+      "width": 720,
+      "x": 274,
+      "y": -1,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [
         {
@@ -379,16 +421,408 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
       "keepRatio": true,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "12dab231-1e94-4654-b00b-a96b6f39bacb",
-      "width": 0,
-      "x": 903,
-      "y": 241,
+      "persistentUuid": "8e255fb2-d9e4-406f-919f-528e072dce07",
+      "width": 112,
+      "x": 263,
+      "y": 524,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "63ed537d-3aa8-4bf3-9fba-070e65009bd6",
+      "width": 114,
+      "x": 352,
+      "y": 615,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "c3d6244d-9c77-4b3d-9764-dafcead35b74",
+      "width": 112,
+      "x": 353,
+      "y": 524,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "52a1c469-0c7e-4fae-b6a5-5b7970f99f65",
+      "width": 114,
+      "x": 262,
+      "y": 615,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "932e4e4e-a988-4b4b-b72c-044efd897722",
+      "width": 104,
+      "x": 447,
+      "y": 623,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 105,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite11",
+      "persistentUuid": "46d753b1-3743-428f-8fa1-b51866e8f250",
+      "width": 105,
+      "x": 626,
+      "y": 623,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 101,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite9",
+      "persistentUuid": "02a81dad-60b2-4f54-b511-70fd5240b554",
+      "width": 101,
+      "x": 539,
+      "y": 627,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "390245f8-012e-454e-b562-e8d83fa9bd94",
+      "width": 112,
+      "x": 443,
+      "y": 524,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "1264c321-c3e4-4f4d-ba7f-1d23c765e1f8",
+      "width": 112,
+      "x": 533,
+      "y": 523,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "22ea2f14-8cba-4ca6-9e10-1f074f55fc49",
+      "width": 112,
+      "x": 623,
+      "y": 523,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "84f482e2-cb1f-4f6f-b65f-32ff6f0b726b",
+      "width": 112,
+      "x": 713,
+      "y": 523,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "8b812257-4edc-424d-b9bb-6efe4bf0a751",
+      "width": 112,
+      "x": 803,
+      "y": 523,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 112,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "0937fc29-986c-4020-b41d-703ef0a52a7f",
+      "width": 112,
+      "x": 893,
+      "y": 523,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite3",
+      "persistentUuid": "e984b9be-bea7-4a7f-a000-a397f74c3888",
+      "width": 114,
+      "x": 803,
+      "y": 615,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 104,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite5",
+      "persistentUuid": "89a156a0-96a3-440c-ae71-91e822cb873b",
+      "width": 104,
+      "x": 713,
+      "y": 623,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite7",
+      "persistentUuid": "ee55bbfc-f646-4999-a726-9771713f1d72",
+      "width": 114,
+      "x": 893,
+      "y": 615,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "314f38cb-b150-4176-b0fb-8afad0874ece",
+      "width": 105,
+      "x": 266,
+      "y": 76,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "ac30c422-b70c-48bc-9c74-2341b994828d",
+      "width": 105,
+      "x": 356,
+      "y": 76,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "6a4b6da4-6b52-491a-8737-ca51923d5277",
+      "width": 105,
+      "x": 446,
+      "y": 76,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "8176aa07-602d-4c99-b412-73e7edbbb854",
+      "width": 105,
+      "x": 536,
+      "y": 76,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "811c14f8-3b85-4d50-8f95-d6cf346cba84",
+      "width": 105,
+      "x": 626,
+      "y": 76,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "48ca6e46-7ad5-4f3b-bdcd-be6df498a8a5",
+      "width": 105,
+      "x": 716,
+      "y": 76,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "cfe2db78-fdc7-4cee-b09d-a81c32a70c34",
+      "width": 105,
+      "x": 806,
+      "y": 76,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 109,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite2",
+      "persistentUuid": "14b2844c-af59-424d-859b-b846c557d107",
+      "width": 105,
+      "x": 896,
+      "y": 76,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -428,6 +862,31 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
@@ -436,30 +895,6 @@
           "name": "Draggable",
           "type": "DraggableBehavior::Draggable",
           "checkCollisionMask": true
-        },
-        {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 403,
-          "OffsetX": 3,
-          "OffsetY": 2
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
         }
       ],
       "animations": [
@@ -517,6 +952,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite2",
+      "persistentUuid": "a7bd201c-9c5e-4425-b6c2-66f4c0cf37b5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -529,33 +965,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -613,6 +1055,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite3",
+      "persistentUuid": "8e387bc6-e103-4493-b609-463be0be57d6",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -625,33 +1068,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -709,6 +1158,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite4",
+      "persistentUuid": "554b59f2-5ed1-44e8-bb71-074fad3d1cdb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -721,33 +1171,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -805,6 +1261,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite5",
+      "persistentUuid": "ae15c674-cd80-4c44-807a-2e9ae3a41dca",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -817,34 +1274,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -902,6 +1364,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite6",
+      "persistentUuid": "80fba153-da35-435d-b4ef-096b94d0fdfb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -914,33 +1377,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -998,6 +1467,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite7",
+      "persistentUuid": "86be7d3e-8e98-4b89-b199-6e80d8f9fe3c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1010,33 +1480,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1094,6 +1570,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite8",
+      "persistentUuid": "97208428-ba27-447b-8271-676c3ff9227a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1106,33 +1583,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1190,6 +1673,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite9",
+      "persistentUuid": "6d93795d-ca41-4c92-9d10-4c98b4d40525",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1202,33 +1686,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1286,6 +1776,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite10",
+      "persistentUuid": "de78cffd-278b-4072-a1c6-7b984b35138a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1298,33 +1789,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1382,6 +1879,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite11",
+      "persistentUuid": "016be236-a616-4876-8130-20d8c7d16470",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1394,33 +1892,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1478,6 +1982,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "NewSprite12",
+      "persistentUuid": "5668c5b8-e799-419c-8c07-e70f34a7221f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -1490,33 +1995,39 @@
           "name": "Grid_Y",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": true
         }
       ],
       "effects": [],
       "behaviors": [
         {
-          "name": "PixelPerfectTopDownMovement",
-          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
-          "TopDownMovement": "TopDownMovement",
-          "PixelSize": 1,
-          "OffsetX": 0,
-          "OffsetY": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 800,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 200,
-          "movementAngleOffset": 0,
-          "rotateObject": true,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
@@ -1618,51 +2129,225 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "colorB": 228,
-      "colorG": 176,
-      "colorR": 74,
-      "creationTime": 0,
-      "name": "Piece Selection",
-      "source": "",
-      "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "DraggablePiece",
+            "Grid_X",
+            "=",
+            "DraggablePiece.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "DraggablePiece",
+            "Grid_Y",
+            "=",
+            "DraggablePiece.Y()"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonFromTextPressed"
+            "value": "DraggableBehavior::Dropped"
           },
           "parameters": [
-            "NewSprite",
-            "\"Left Mouse Button\""
+            "DraggablePiece",
+            "Draggable"
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
-            "value": "IsCursorOnObject"
+            "value": "SnapToGrid::SnapObjectToVirtualGrid"
           },
           "parameters": [
-            "NewSprite",
             "",
-            "",
+            "DraggablePiece",
+            "90.25",
+            "90.25",
+            "-9",
+            "-20",
             ""
           ]
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Once"
+            "value": "SetNumberVariable"
           },
-          "parameters": []
+          "parameters": [
+            "NewXPosition",
+            "=",
+            "DraggablePiece.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "NewYPosition",
+            "=",
+            "DraggablePiece.Y()"
+          ]
         }
       ],
-      "actions": []
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickAllInstances"
+              },
+              "parameters": [
+                "",
+                "DraggablePiece"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "LastXPosition",
+                "=",
+                "NewXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "LastYPosition",
+                "=",
+                "NewYPosition"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Occupied",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Occupied",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "=",
+                "DraggablePiece.LastXPosition",
+                "=",
+                "DraggablePiece.LastYPosition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Occupied",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "LastXPosition",
+                "=",
+                "DraggablePiece.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "LastYPosition",
+                "=",
+                "DraggablePiece.Y()"
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        }
+      ]
     }
   ],
   "layers": [
@@ -1750,20 +2435,12 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
-      "name": "PixelPerfectTopDownMovement",
-      "type": "PixelPerfectMovement::PixelPerfectTopDownMovement"
-    },
-    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
-    },
-    {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
