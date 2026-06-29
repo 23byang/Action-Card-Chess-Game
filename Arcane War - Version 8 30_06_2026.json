@@ -1,0 +1,423 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 272,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "25b28896-0c77-4972-88de-5d027f364392",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Arcane War - Version 8 30/06/2026",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Screenshot 2026-05-27 at 10.11.36 AM4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-05-27 at 10.11.36 AM.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/ecbb55ac08668a4cc80851993ca0d328484cf6d364e005a95ad114459f766da3-Screenshot 2026-05-27 at 10.11.36 AM.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_plt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_plt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/bb12b5f078811c3c4492f8a1f786d410563cbfd0c870a2c5691235371af492da-Chess_plt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_pdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_pdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/151767321e648706973fad1445f95ab0d1ffbec24ebb721fe0fdb5d3311583db-Chess_pdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_nlt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_nlt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/2e2904ae344dddd759c3b869841fe345703138ed58b91e38350055e8a63e3a87-Chess_nlt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_ndt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_ndt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/a18c6a8899a16fcf8fbba091a3543479aae35fd6a43462b4a7577cf5f15413b7-Chess_ndt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_blt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_blt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/7dbcd7e37e427d94bf9a2b79806faf00407e0bc32ef8e17025d39a7721b8fb4d-Chess_blt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_bdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_bdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/da36a4ae0a1ab1bcba7b3b2f8fe7b21e7fe632f48a2d6a33eeeeacd4270db4ca-Chess_bdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_rlt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_rlt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/c757f07f5dbfdbf3f5733d024c904c45dc08929661f568b4b06fd856e69bcaa5-Chess_rlt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_rdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_rdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/be82afb5f327cc693033abcf16764a4e52a4d2e06804ac70e21d31e89ae08fbe-Chess_rdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_qlt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_qlt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/cf39a6a5b61c1053a3bf5797770ec6cf5514489a7f9ec4acd7c9053a77e789fb-Chess_qlt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_qdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_qdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/eee80adb6eb5813738fdd5b8914ee1774b61083cf3db92266f3e029241b1d44d-Chess_qdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_klt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_klt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/524597d53e2af0115fc56d87f6b5a32c620ab21e4cd86feb27ac09539489eefd-Chess_klt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_kdt45.svg (1)4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_kdt45.svg (1).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/53cb93e251837fbe34b9eaa28b5af598d530f9f444592d8bbaf6886207239c87-Chess_kdt45.svg (1).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Graduate-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Graduate-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Kenney/Pixel art/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Checkmate! (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (4).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/2f2327d97bc845d03a8410cde9c1b288312030d326547fc7cec70c63cc0746f6-Checkmate! (4).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Checkmate! (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (3).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/a8d1136f537963ffdbc8d314944bb418324ecf6d5da5e612712e6b2ff0f92f1d-Checkmate! (3).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Checkmate! (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (2).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/fce0aeaa2bcfacde804cdace972e5cdb7b87e7843275fde4b1fe02855fd0b78d-Checkmate! (2).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Screenshot 2026-06-16 161237.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-06-16 161237.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/038a9ab7e772a339c5ad5c91a0bf2b003eeb29489897f105236784b659be74b6-Screenshot 2026-06-16 161237.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Checkmate! (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (5).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/c20688d5e0c519ba65837ca4c37bbe107af823a5b92c6c3d132c41311d62c067-Checkmate! (5).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "Screenshot 2026-06-17 124624.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-06-17 124624.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2026-06-17 124821.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-06-17 124821.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2026-06-17 124821.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Screenshot 2026-06-17 124821",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2026-06-17124822.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Screenshot 2026-06-17124822",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start-game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/starting-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/info-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/snaptogrid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    }
+  ],
+  "externalLayouts": []
+}
