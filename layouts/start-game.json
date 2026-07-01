@@ -20,7 +20,7 @@
     "gridColor": 0,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 2.383433435476154,
+    "zoomFactor": 1.006290864972536,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -33,34 +33,81 @@
           "name": "NewSprite"
         },
         {
-          "name": "NewSprite2"
-        },
-        {
           "name": "NewSprite3"
-        },
-        {
-          "name": "NewSprite4"
         },
         {
           "name": "NewSprite5"
         },
         {
-          "name": "NewSprite6"
-        },
-        {
           "name": "NewSprite7"
-        },
-        {
-          "name": "NewSprite8"
         },
         {
           "name": "NewSprite9"
         },
         {
-          "name": "NewSprite10"
+          "name": "NewSprite11"
         },
         {
-          "name": "NewSprite11"
+          "name": "NewSprite16"
+        },
+        {
+          "name": "NewSprite17"
+        },
+        {
+          "name": "NewSprite18"
+        },
+        {
+          "name": "NewSprite19"
+        },
+        {
+          "name": "NewSprite20"
+        },
+        {
+          "name": "NewSprite21"
+        },
+        {
+          "name": "NewSprite22"
+        }
+      ]
+    },
+    {
+      "name": "DraggablePiece_Black",
+      "objects": [
+        {
+          "name": "NewSprite2"
+        },
+        {
+          "name": "NewSprite23"
+        },
+        {
+          "name": "NewSprite24"
+        },
+        {
+          "name": "NewSprite25"
+        },
+        {
+          "name": "NewSprite26"
+        },
+        {
+          "name": "NewSprite27"
+        },
+        {
+          "name": "NewSprite28"
+        },
+        {
+          "name": "NewSprite29"
+        },
+        {
+          "name": "NewSprite4"
+        },
+        {
+          "name": "NewSprite6"
+        },
+        {
+          "name": "NewSprite8"
+        },
+        {
+          "name": "NewSprite10"
         },
         {
           "name": "NewSprite12"
@@ -467,23 +514,6 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "c3d6244d-9c77-4b3d-9764-dafcead35b74",
-      "width": 112,
-      "x": 353,
-      "y": 524,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 114,
       "keepRatio": true,
       "layer": "",
@@ -544,108 +574,6 @@
       "x": 539,
       "y": 627,
       "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "390245f8-012e-454e-b562-e8d83fa9bd94",
-      "width": 112,
-      "x": 443,
-      "y": 524,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "1264c321-c3e4-4f4d-ba7f-1d23c765e1f8",
-      "width": 112,
-      "x": 533,
-      "y": 523,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "22ea2f14-8cba-4ca6-9e10-1f074f55fc49",
-      "width": 112,
-      "x": 623,
-      "y": 523,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "84f482e2-cb1f-4f6f-b65f-32ff6f0b726b",
-      "width": 112,
-      "x": 713,
-      "y": 523,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "8b812257-4edc-424d-b9bb-6efe4bf0a751",
-      "width": 112,
-      "x": 803,
-      "y": 523,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "0937fc29-986c-4020-b41d-703ef0a52a7f",
-      "width": 112,
-      "x": 893,
-      "y": 523,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1035,6 +963,125 @@
       "x": 1101,
       "y": 71,
       "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite16",
+      "persistentUuid": "acc0c6a1-068f-40eb-b49d-94245e224cbf",
+      "width": 114,
+      "x": 353,
+      "y": 524,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite17",
+      "persistentUuid": "5ef694a0-9861-4177-836d-8993d09b1ffe",
+      "width": 114,
+      "x": 443,
+      "y": 524,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite22",
+      "persistentUuid": "c5ddf6a8-3395-4d6e-a434-84a6dd8a34ae",
+      "width": 114,
+      "x": 533,
+      "y": 524,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 115,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite21",
+      "persistentUuid": "3b581503-f732-4c86-854f-e7786d6e417e",
+      "width": 115,
+      "x": 623,
+      "y": 524,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 115,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite20",
+      "persistentUuid": "e5a615a1-bfec-463d-aad2-13ef4849dcc1",
+      "width": 115,
+      "x": 713,
+      "y": 524,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 115,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite19",
+      "persistentUuid": "09d31a25-fb6b-47fd-bb3a-ac3c7e1244e6",
+      "width": 115,
+      "x": 803,
+      "y": 524,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 114,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite18",
+      "persistentUuid": "7c1a3a36-3e66-4f03-91a5-4de374c8ded3",
+      "width": 114,
+      "x": 893,
+      "y": 524,
+      "zOrder": 24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2606,6 +2653,1546 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite16",
+      "persistentUuid": "42db191f-9209-498e-9e05-3a734bbadcf9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "7f3e370c-5f83-4218-b048-4a83f5800201",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "e2be07bc-cc4e-4b30-b799-a0811ce5e1b9",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "8d3369f3-b2fd-48dc-832d-b14624e8fd2e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "804184fb-7f47-4655-ad49-5cd398b5a3a8",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "73e695a7-2aee-470b-802c-cdb47e7b1340",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "02f07e2f-d34b-4c52-96b1-7d7854baf6fb",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "88ca5f73-7a72-4288-87ef-136b5eb7ef03",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_plt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite17",
+      "persistentUuid": "778c563f-fda6-4081-b5f8-373e1c36c7d7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "966e065b-0afe-450b-84ca-632e63d145a0",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "d4009be8-ac63-42c9-a25d-c38e30ec41ef",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "86664c81-625f-488a-8e0e-5017622971e9",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "c726b91d-e3c4-4320-891e-35e854fbc941",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "6c77c5c7-28a1-4f18-a42f-5ce39b094c64",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "67cce0c6-7cd3-4b40-b290-0ee58cdd7dd1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "a576f6b1-10c4-4bf5-a445-06eedadf40eb",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_plt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite18",
+      "persistentUuid": "c096dd6f-38f8-44d7-aa1a-5ce78048fc3f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "7dc98fa6-51fa-49f9-9e67-1056c5807f3d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "049b8f24-b8c2-4783-b6b6-7a2e3a22b87c",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "812b4e64-1d0a-46f3-b2ae-74910d1d433d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "3ff835f3-e69f-45b2-9e1a-a5a7373e2a3c",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "7db67229-fb91-458f-bcdc-6a7642cdafb2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "e076d221-e140-421f-b5e3-7f7e769cdc29",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "305561cf-65f7-45c4-b00e-72819825370f",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_plt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite19",
+      "persistentUuid": "4d5547b6-616f-444c-8225-3dd871f09e7c",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "8586f698-a0ce-48fb-8d13-16ae9e2d9351",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "a68cfd89-ac19-4d4a-baf5-b6ca38477b04",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "11b21778-5c52-4c6f-8fa4-1e3969f8f91a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "496471d3-9b41-4692-aa86-f2dc7edd8c63",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "fad99db2-6218-407b-b563-b16176a923bc",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "5cee1b18-9cf2-4c05-be0a-8865dd2216e2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "be5f8bcc-9a54-4c30-9fb2-8867ccbcee0b",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_plt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite20",
+      "persistentUuid": "74363326-2be0-49f8-8e11-152efae737f9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "e92d58e2-86da-425c-b80f-198a5812d29f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "51f0cfa4-d48b-4515-977d-42501bc9d85b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "53db0ccb-ce24-4fb0-a0e3-34247492a0b7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "474788a3-142e-4649-bdb1-b50a196c919a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "95f56be2-afd2-4b75-8eb5-1c409db953f3",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "d8d136f3-469b-4b86-a441-8582c17b75c5",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "9d105f3d-0d58-4f45-8bdb-c963befb17e6",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_plt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite21",
+      "persistentUuid": "c7397ad4-db85-4f63-92b4-8b278a108ab7",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "c53f5021-0885-4086-ba59-a7a12c0f1bf8",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "1827d131-6949-476d-a5a9-c5a31ba9896b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "d8cba963-0020-4539-86fa-7d2bd10cc008",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "debbba18-c2d2-4b09-91d7-166871b85537",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "13f18f0c-c5e2-45f7-b2ff-e277c6604ba2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "dd8d982c-6c62-43a5-86cd-65914d55d9d7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "68245deb-994e-4efd-a841-c19d33e1d4db",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_plt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite22",
+      "persistentUuid": "7fc6b694-5805-49b8-86dc-9a66481368f9",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "23962e76-58cb-4bc5-bb64-580ff7428ac2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "e63d1bd0-1404-414d-ac88-34ef3a7544bc",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "5c9307b5-ac83-4c56-8f60-0c7d3f249742",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "355e66d7-c2ed-4d29-8c86-10c3f236c890",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "db7c2651-f42f-4635-a18e-786740b10a9e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "e89e9676-84cf-40d8-918d-ed4b554f6a5d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "55a52154-da0b-42ad-b018-1e3674847aea",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_plt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite23",
+      "persistentUuid": "ba0ec34a-3a8c-4ea0-863f-bb7952b1b2ac",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "585968dd-575b-4087-8544-f2e2c5f7cd40",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "83db79ec-6fc0-4c6a-b558-37cf0a21be62",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "1b0cb6ba-0958-49db-b8da-8bca09cdc64a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "707493b9-1466-4be4-bee0-6b46d88bf179",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "877f4a4a-f52c-4f15-bd54-8193575c09fe",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "2d0b8d36-6832-48b9-bd16-e44091c5de39",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "2cc24509-92fa-4e37-b981-b556fafc8b9f",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_pdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite24",
+      "persistentUuid": "df28873d-0ae6-411e-a337-84e550294e00",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "2b703a04-55b4-4257-8041-a0b31cb7562b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "f3ae6311-ec54-432f-88b6-1fae5443de77",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "fd65fdaa-9493-43d1-aa38-fb5737821d1e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "47b3db5e-dd15-4048-b298-64f06cd76714",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "b32b59fe-6a2c-4b46-86ea-3e08b775bd3d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "db86fa1c-ffd5-454f-8037-4bef520e00f5",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "b9a9770d-572e-4936-8401-ed455dc07d02",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_pdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite25",
+      "persistentUuid": "b40dfefb-bbc5-4093-a55f-c4b6a78e834f",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "8ce3f7e8-0c8b-4386-af2c-333285cce891",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "6af9e921-e4c1-4be0-bcfe-03a40a64cc94",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "adc34443-c1e5-43e8-8c93-0b9fba1bed2b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "96bb9773-8371-4a4f-a3d7-26f73f23bc1e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "8c32a804-7d1b-4db7-b119-56230bd6eba2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "e6bb9e66-5db2-49bb-9ea8-f8c6f47503fd",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "822ed9a3-042d-4478-a6b9-354b3cd9aeb5",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_pdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite26",
+      "persistentUuid": "24c67a12-731b-4546-ad66-ca1a97e39d92",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "a3ae0c25-ba89-43a9-bc27-2d95b91d8ae8",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "16ea8382-2d83-430f-886e-851101f04cf2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "456ceed6-3ce9-44b2-abda-763e13fee165",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "6fd39a69-26f4-43f7-beb9-442d84b66780",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "4c86dc7d-07d2-4408-a419-67bcb689d916",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "3c70eaa6-9b32-472f-bd0f-272b95dc048f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "fa7557c4-8d73-4c18-b956-0aade3dd4cbe",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_pdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite27",
+      "persistentUuid": "588ea7ae-599c-453b-bca1-be67a74de282",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "c8dcfe2c-a1d6-4396-8cd6-8c6d4fca1913",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "06636303-8eb1-4450-accd-11e1a6a00775",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "98e08586-c454-4cc3-a16b-7ce25f948c0e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "868c79fc-6353-4a68-92bc-e6e9620f46b9",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "130f4546-caa7-40f6-8952-f8db7ac2e550",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "aefddb4e-73ac-467d-a40c-594b12503d55",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "071efe36-3b7c-4d0f-8080-cd757e04bf2f",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_pdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite28",
+      "persistentUuid": "2b652404-8706-41a6-a400-13f638fe9b98",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "00f39487-2564-4108-be48-e532553ecbd1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "657fbddd-bc7a-4042-afce-fb1de9749f0f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "3863f5fc-52b8-4025-9116-e08167484010",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "87c2aa54-e1a1-406d-bcb4-6e36ad161639",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "d7ceb9e1-ce55-48d1-a0a5-95fe325d48f7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "667975f4-d26c-4bf0-9a9a-1a4191b6cb64",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "a0f052d1-4cb5-4dab-a88d-b3908b12a6b7",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_pdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite29",
+      "persistentUuid": "2fc427c6-2bd1-4fbd-9470-9026c8cff903",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "71453e55-9a10-4354-95ad-dfa881f7c198",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "ecc73378-bab7-4a58-a085-91d77145b142",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "aede372d-c005-4518-af86-3107424282e2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "734b167b-5865-4b36-aac0-36cbe14cbf2f",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "2bd93a0c-f8ab-4482-8dde-95d828d642ab",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "3805bf54-f6d3-4bff-a0ac-4b0fe1345dbd",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "ca6be773-fb45-484d-af5d-7a59a6ef302d",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_pdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 27,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 22
+                      },
+                      {
+                        "x": 93,
+                        "y": 108
+                      },
+                      {
+                        "x": 27,
+                        "y": 108
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2615,10 +4202,52 @@
         "objectName": "NewTileMap"
       },
       {
+        "objectName": "NewSprite2"
+      },
+      {
+        "objectName": "NewSprite29"
+      },
+      {
+        "objectName": "NewSprite28"
+      },
+      {
+        "objectName": "NewSprite27"
+      },
+      {
+        "objectName": "NewSprite26"
+      },
+      {
+        "objectName": "NewSprite25"
+      },
+      {
+        "objectName": "NewSprite24"
+      },
+      {
+        "objectName": "NewSprite23"
+      },
+      {
         "objectName": "NewSprite"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "NewSprite16"
+      },
+      {
+        "objectName": "NewSprite17"
+      },
+      {
+        "objectName": "NewSprite22"
+      },
+      {
+        "objectName": "NewSprite21"
+      },
+      {
+        "objectName": "NewSprite20"
+      },
+      {
+        "objectName": "NewSprite19"
+      },
+      {
+        "objectName": "NewSprite18"
       },
       {
         "objectName": "NewSprite3"
@@ -2891,6 +4520,191 @@
                 "LastYPosition",
                 "=",
                 "DraggablePiece.Y()"
+              ]
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "name": "Occupied",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "NewXPosition",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "type": "number",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DraggableBehavior::Dropped"
+          },
+          "parameters": [
+            "DraggablePiece_Black",
+            "Draggable"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SnapToGrid::SnapObjectToVirtualGrid"
+          },
+          "parameters": [
+            "",
+            "DraggablePiece_Black",
+            "90.25",
+            "90.25",
+            "-9",
+            "-20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "NewXPosition",
+            "=",
+            "DraggablePiece_Black.X()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "NewYPosition",
+            "=",
+            "DraggablePiece_Black.Y()"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickAllInstances"
+              },
+              "parameters": [
+                "",
+                "DraggablePiece_Black"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "LastXPosition",
+                "=",
+                "NewXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "LastYPosition",
+                "=",
+                "NewYPosition"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Occupied",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Occupied",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "=",
+                "DraggablePiece_Black.LastXPosition",
+                "=",
+                "DraggablePiece_Black.LastYPosition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "Occupied",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "LastXPosition",
+                "=",
+                "DraggablePiece_Black.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "LastYPosition",
+                "=",
+                "DraggablePiece_Black.Y()"
               ]
             }
           ]
