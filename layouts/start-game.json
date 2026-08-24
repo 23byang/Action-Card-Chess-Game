@@ -20,7 +20,7 @@
     "gridColor": 0,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.006290864972536,
+    "zoomFactor": 0.46930286525361115,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -111,6 +111,35 @@
         },
         {
           "name": "NewSprite12"
+        }
+      ]
+    },
+    {
+      "name": "Pawns_White",
+      "objects": [
+        {
+          "name": "NewSprite"
+        },
+        {
+          "name": "NewSprite16"
+        },
+        {
+          "name": "NewSprite17"
+        },
+        {
+          "name": "NewSprite18"
+        },
+        {
+          "name": "NewSprite19"
+        },
+        {
+          "name": "NewSprite20"
+        },
+        {
+          "name": "NewSprite21"
+        },
+        {
+          "name": "NewSprite22"
         }
       ]
     }
@@ -4298,6 +4327,7 @@
   },
   "events": [
     {
+      "aiGeneratedEventId": "01KYKKFCXQ5XJD8H9VXPTA4WMD",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4309,56 +4339,164 @@
           ]
         }
       ],
-      "actions": [
+      "actions": [],
+      "events": [
         {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "DraggablePiece",
-            "Grid_X",
-            "=",
-            "DraggablePiece.X()"
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "DraggablePiece",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "Grid_X",
+                "=",
+                "round((DraggablePiece.X() + 9) / 90.25) - 3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "Grid_Y",
+                "=",
+                "round((DraggablePiece.Y() + 20) / 90.25)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "LastXPosition",
+                "=",
+                "DraggablePiece.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "LastYPosition",
+                "=",
+                "DraggablePiece.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Board[ToString(DraggablePiece.Grid_X) + \"_\" + ToString(DraggablePiece.Grid_Y)]",
+                "=",
+                "\"W\""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "DraggablePiece",
-            "Grid_Y",
-            "=",
-            "DraggablePiece.Y()"
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "DraggablePiece_Black",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "Grid_X",
+                "=",
+                "round((DraggablePiece_Black.X() + 9) / 90.25) - 3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "Grid_Y",
+                "=",
+                "round((DraggablePiece_Black.Y() + 20) / 90.25)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "LastXPosition",
+                "=",
+                "DraggablePiece_Black.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "LastYPosition",
+                "=",
+                "DraggablePiece_Black.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Board[ToString(DraggablePiece_Black.Grid_X) + \"_\" + ToString(DraggablePiece_Black.Grid_Y)]",
+                "=",
+                "\"B\""
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "NewText2"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "NewSprite14"
-          ]
-        },
-        {
-          "type": {
-            "value": "Hide"
-          },
-          "parameters": [
-            "NewSprite13"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewText2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite14"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NewSprite13"
+              ]
+            }
           ]
         }
       ]
     },
     {
+      "aiGeneratedEventId": "01KYKKHC54N2N0RFNG4SVWG5BQ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4391,9 +4529,9 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "NewXPosition",
+            "GridCol",
             "=",
-            "DraggablePiece.X()"
+            "round((DraggablePiece.X() + 9) / 90.25) - 3"
           ]
         },
         {
@@ -4401,9 +4539,29 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "NewYPosition",
+            "GridRow",
             "=",
-            "DraggablePiece.Y()"
+            "round((DraggablePiece.Y() + 20) / 90.25)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "NewKey",
+            "=",
+            "ToString(GridCol) + \"_\" + ToString(GridRow)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "OldKey",
+            "=",
+            "ToString(DraggablePiece.Grid_X) + \"_\" + ToString(DraggablePiece.Grid_Y)"
           ]
         }
       ],
@@ -4413,72 +4571,70 @@
           "conditions": [
             {
               "type": {
-                "value": "PickAllInstances"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "DraggablePiece"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece",
-                "LastXPosition",
-                "=",
-                "NewXPosition"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece",
-                "LastYPosition",
-                "=",
-                "NewYPosition"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Occupied",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Occupied",
-                "True",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridCol",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridCol",
+                    ">",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridRow",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridRow",
+                    ">",
+                    "7"
+                  ]
+                }
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetXY"
+                "value": "SetX"
               },
               "parameters": [
                 "DraggablePiece",
                 "=",
-                "DraggablePiece.LastXPosition",
+                "DraggablePiece.LastXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "DraggablePiece",
                 "=",
                 "DraggablePiece.LastYPosition"
               ]
@@ -4486,20 +4642,98 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::Else",
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "StringVariable"
               },
               "parameters": [
-                "Occupied",
-                "False",
-                ""
+                "Board[NewKey]",
+                "=",
+                "\"W\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "NewKey",
+                "!=",
+                "OldKey"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "=",
+                "DraggablePiece.LastXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "=",
+                "DraggablePiece.LastYPosition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Board[OldKey]",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Board[NewKey]",
+                "=",
+                "\"W\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "Grid_X",
+                "=",
+                "GridCol"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "Grid_Y",
+                "=",
+                "GridRow"
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberObjectVariable"
@@ -4527,23 +4761,29 @@
       ],
       "variables": [
         {
-          "name": "Occupied",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "NewXPosition",
+          "name": "GridCol",
           "type": "number",
           "value": 0
         },
         {
-          "name": "NewYPosition",
+          "name": "GridRow",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewKey",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "OldKey",
+          "type": "string",
+          "value": ""
         }
       ]
     },
     {
+      "aiGeneratedEventId": "01KYKKHC54N2N0RFNG4SVWG5BQ",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4576,9 +4816,9 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "NewXPosition",
+            "GridCol",
             "=",
-            "DraggablePiece_Black.X()"
+            "round((DraggablePiece_Black.X() + 9) / 90.25) - 3"
           ]
         },
         {
@@ -4586,9 +4826,29 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "NewYPosition",
+            "GridRow",
             "=",
-            "DraggablePiece_Black.Y()"
+            "round((DraggablePiece_Black.Y() + 20) / 90.25)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "NewKey",
+            "=",
+            "ToString(GridCol) + \"_\" + ToString(GridRow)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetStringVariable"
+          },
+          "parameters": [
+            "OldKey",
+            "=",
+            "ToString(DraggablePiece_Black.Grid_X) + \"_\" + ToString(DraggablePiece_Black.Grid_Y)"
           ]
         }
       ],
@@ -4598,72 +4858,70 @@
           "conditions": [
             {
               "type": {
-                "value": "PickAllInstances"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "",
-                "DraggablePiece_Black"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece_Black",
-                "LastXPosition",
-                "=",
-                "NewXPosition"
-              ]
-            },
-            {
-              "type": {
-                "value": "NumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece_Black",
-                "LastYPosition",
-                "=",
-                "NewYPosition"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetBooleanVariable"
-              },
-              "parameters": [
-                "Occupied",
-                "True",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "BooleanVariable"
-              },
-              "parameters": [
-                "Occupied",
-                "True",
-                ""
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridCol",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridCol",
+                    ">",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridRow",
+                    "<",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "GridRow",
+                    ">",
+                    "7"
+                  ]
+                }
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "SetXY"
+                "value": "SetX"
               },
               "parameters": [
                 "DraggablePiece_Black",
                 "=",
-                "DraggablePiece_Black.LastXPosition",
+                "DraggablePiece_Black.LastXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
                 "=",
                 "DraggablePiece_Black.LastYPosition"
               ]
@@ -4671,20 +4929,98 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
+          "type": "BuiltinCommonInstructions::Else",
           "conditions": [
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "StringVariable"
               },
               "parameters": [
-                "Occupied",
-                "False",
-                ""
+                "Board[NewKey]",
+                "=",
+                "\"B\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "NewKey",
+                "!=",
+                "OldKey"
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "=",
+                "DraggablePiece_Black.LastXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "=",
+                "DraggablePiece_Black.LastYPosition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Board[OldKey]",
+                "=",
+                "\"0\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "Board[NewKey]",
+                "=",
+                "\"B\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "Grid_X",
+                "=",
+                "GridCol"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "Grid_Y",
+                "=",
+                "GridRow"
+              ]
+            },
             {
               "type": {
                 "value": "SetNumberObjectVariable"
@@ -4712,19 +5048,24 @@
       ],
       "variables": [
         {
-          "name": "Occupied",
-          "type": "boolean",
-          "value": false
-        },
-        {
-          "name": "NewXPosition",
+          "name": "GridCol",
           "type": "number",
           "value": 0
         },
         {
-          "name": "NewYPosition",
+          "name": "GridRow",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "NewKey",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "OldKey",
+          "type": "string",
+          "value": ""
         }
       ]
     },
@@ -5030,7 +5371,17 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "DraggableBehavior::Dragged"
+          },
+          "parameters": [
+            "Pawns_White",
+            "Draggable"
+          ]
+        }
+      ],
       "actions": []
     }
   ],
