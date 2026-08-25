@@ -30,43 +30,52 @@
       "name": "DraggablePiece",
       "objects": [
         {
-          "name": "NewSprite"
+          "name": "White_Pawn_1"
         },
         {
-          "name": "NewSprite3"
+          "name": "White_Horse_1"
         },
         {
-          "name": "NewSprite5"
+          "name": "White_Bishop_1"
         },
         {
-          "name": "NewSprite7"
+          "name": "White_Rook_1"
         },
         {
-          "name": "NewSprite9"
+          "name": "White_Queen_1"
         },
         {
-          "name": "NewSprite11"
+          "name": "White_King_1"
         },
         {
-          "name": "NewSprite16"
+          "name": "White_Pawn_2"
         },
         {
-          "name": "NewSprite17"
+          "name": "White_Pawn_3"
         },
         {
-          "name": "NewSprite18"
+          "name": "White_Pawn_8"
         },
         {
-          "name": "NewSprite19"
+          "name": "White_Pawn_7"
         },
         {
-          "name": "NewSprite20"
+          "name": "White_Pawn_6"
         },
         {
-          "name": "NewSprite21"
+          "name": "White_Pawn_5"
         },
         {
-          "name": "NewSprite22"
+          "name": "White_Pawn_4"
+        },
+        {
+          "name": "White_Horse_2"
+        },
+        {
+          "name": "White_Bishop_2"
+        },
+        {
+          "name": "White_Rook_2"
         }
       ]
     },
@@ -74,43 +83,52 @@
       "name": "DraggablePiece_Black",
       "objects": [
         {
-          "name": "NewSprite2"
+          "name": "Black_Pawn_1"
         },
         {
-          "name": "NewSprite23"
+          "name": "Black_Pawn_8"
         },
         {
-          "name": "NewSprite24"
+          "name": "Black_Pawn_7"
         },
         {
-          "name": "NewSprite25"
+          "name": "Black_Pawn_6"
         },
         {
-          "name": "NewSprite26"
+          "name": "Black_Pawn_5"
         },
         {
-          "name": "NewSprite27"
+          "name": "Black_Pawn_4"
         },
         {
-          "name": "NewSprite28"
+          "name": "Black_Pawn_3"
         },
         {
-          "name": "NewSprite29"
+          "name": "Black_Pawn_2"
         },
         {
-          "name": "NewSprite4"
+          "name": "Black_Horse_1"
         },
         {
-          "name": "NewSprite6"
+          "name": "Black_Bishop_1"
         },
         {
-          "name": "NewSprite8"
+          "name": "Black_Rook_1"
         },
         {
-          "name": "NewSprite10"
+          "name": "Black_Queen_1"
         },
         {
-          "name": "NewSprite12"
+          "name": "Black_King_1"
+        },
+        {
+          "name": "Black_Horse_2"
+        },
+        {
+          "name": "Black_Bishop_2"
+        },
+        {
+          "name": "Black_Rook_2"
         }
       ]
     },
@@ -118,28 +136,145 @@
       "name": "Pawns_White",
       "objects": [
         {
-          "name": "NewSprite"
+          "name": "White_Pawn_1"
         },
         {
-          "name": "NewSprite16"
+          "name": "White_Pawn_2"
         },
         {
-          "name": "NewSprite17"
+          "name": "White_Pawn_3"
         },
         {
-          "name": "NewSprite18"
+          "name": "White_Pawn_8"
         },
         {
-          "name": "NewSprite19"
+          "name": "White_Pawn_7"
         },
         {
-          "name": "NewSprite20"
+          "name": "White_Pawn_6"
         },
         {
-          "name": "NewSprite21"
+          "name": "White_Pawn_5"
         },
         {
-          "name": "NewSprite22"
+          "name": "White_Pawn_4"
+        }
+      ]
+    },
+    {
+      "name": "Pawns_Black",
+      "objects": [
+        {
+          "name": "Black_Pawn_1"
+        },
+        {
+          "name": "Black_Pawn_8"
+        },
+        {
+          "name": "Black_Pawn_7"
+        },
+        {
+          "name": "Black_Pawn_6"
+        },
+        {
+          "name": "Black_Pawn_5"
+        },
+        {
+          "name": "Black_Pawn_4"
+        },
+        {
+          "name": "Black_Pawn_3"
+        },
+        {
+          "name": "Black_Pawn_2"
+        }
+      ]
+    },
+    {
+      "name": "Knight_White",
+      "objects": [
+        {
+          "name": "White_Horse_1"
+        },
+        {
+          "name": "White_Horse_2"
+        }
+      ]
+    },
+    {
+      "name": "Knight_Black",
+      "objects": [
+        {
+          "name": "Black_Horse_1"
+        },
+        {
+          "name": "Black_Horse_2"
+        }
+      ]
+    },
+    {
+      "name": "Bishop_Black",
+      "objects": [
+        {
+          "name": "Black_Bishop_1"
+        },
+        {
+          "name": "Black_Bishop_2"
+        }
+      ]
+    },
+    {
+      "name": "Bishop_White",
+      "objects": [
+        {
+          "name": "White_Bishop_1"
+        },
+        {
+          "name": "White_Bishop_2"
+        }
+      ]
+    },
+    {
+      "name": "Rook_Black",
+      "objects": [
+        {
+          "name": "Black_Rook_1"
+        },
+        {
+          "name": "Black_Rook_2"
+        }
+      ]
+    },
+    {
+      "name": "Rook_White",
+      "objects": [
+        {
+          "name": "White_Rook_1"
+        },
+        {
+          "name": "White_Rook_2"
+        }
+      ]
+    },
+    {
+      "name": "Royals_White",
+      "objects": [
+        {
+          "name": "White_King_1"
+        },
+        {
+          "name": "White_Queen_1"
+        }
+      ]
+    },
+    {
+      "name": "Royals_Black",
+      "objects": [
+        {
+          "name": "Black_Queen_1"
+        },
+        {
+          "name": "Black_King_1"
         }
       ]
     }
@@ -509,27 +644,10 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 112,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite",
-      "persistentUuid": "8e255fb2-d9e4-406f-919f-528e072dce07",
-      "width": 112,
-      "x": 263,
-      "y": 524,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 114,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite3",
+      "name": "White_Horse_1",
       "persistentUuid": "63ed537d-3aa8-4bf3-9fba-070e65009bd6",
       "width": 114,
       "x": 352,
@@ -546,7 +664,7 @@
       "height": 114,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite7",
+      "name": "White_Rook_1",
       "persistentUuid": "52a1c469-0c7e-4fae-b6a5-5b7970f99f65",
       "width": 114,
       "x": 262,
@@ -563,7 +681,7 @@
       "height": 104,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite5",
+      "name": "White_Bishop_1",
       "persistentUuid": "932e4e4e-a988-4b4b-b72c-044efd897722",
       "width": 104,
       "x": 447,
@@ -580,7 +698,7 @@
       "height": 105,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite11",
+      "name": "White_King_1",
       "persistentUuid": "46d753b1-3743-428f-8fa1-b51866e8f250",
       "width": 105,
       "x": 626,
@@ -597,7 +715,7 @@
       "height": 101,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite9",
+      "name": "White_Queen_1",
       "persistentUuid": "02a81dad-60b2-4f54-b511-70fd5240b554",
       "width": 101,
       "x": 539,
@@ -611,61 +729,10 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 114,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite3",
-      "persistentUuid": "e984b9be-bea7-4a7f-a000-a397f74c3888",
-      "width": 114,
-      "x": 803,
-      "y": 615,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 104,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite5",
-      "persistentUuid": "89a156a0-96a3-440c-ae71-91e822cb873b",
-      "width": 104,
-      "x": 713,
-      "y": 623,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 114,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite7",
-      "persistentUuid": "ee55bbfc-f646-4999-a726-9771713f1d72",
-      "width": 114,
-      "x": 893,
-      "y": 615,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 109,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite2",
+      "name": "Black_Pawn_1",
       "persistentUuid": "314f38cb-b150-4176-b0fb-8afad0874ece",
       "width": 105,
       "x": 266,
@@ -679,129 +746,10 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "ac30c422-b70c-48bc-9c74-2341b994828d",
-      "width": 105,
-      "x": 356,
-      "y": 76,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "6a4b6da4-6b52-491a-8737-ca51923d5277",
-      "width": 105,
-      "x": 446,
-      "y": 76,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "8176aa07-602d-4c99-b412-73e7edbbb854",
-      "width": 105,
-      "x": 536,
-      "y": 76,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "811c14f8-3b85-4d50-8f95-d6cf346cba84",
-      "width": 105,
-      "x": 626,
-      "y": 76,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "48ca6e46-7ad5-4f3b-bdcd-be6df498a8a5",
-      "width": 105,
-      "x": 716,
-      "y": 76,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "cfe2db78-fdc7-4cee-b09d-a81c32a70c34",
-      "width": 105,
-      "x": 806,
-      "y": 76,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 109,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite2",
-      "persistentUuid": "14b2844c-af59-424d-859b-b846c557d107",
-      "width": 105,
-      "x": 896,
-      "y": 76,
-      "zOrder": 8,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 107,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite4",
+      "name": "Black_Horse_1",
       "persistentUuid": "002a46e7-6687-4710-a3ca-ae3d5a0b2d23",
       "width": 107,
       "x": 355,
@@ -818,41 +766,7 @@
       "height": 107,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite4",
-      "persistentUuid": "c4f33f37-3ee4-44ce-98a5-8b9d8e5c9bd4",
-      "width": 107,
-      "x": 806,
-      "y": -11,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite6",
-      "persistentUuid": "34e38d06-2621-4248-8067-247b808b0491",
-      "width": 107,
-      "x": 715,
-      "y": -10,
-      "zOrder": 10,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 107,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite6",
+      "name": "Black_Bishop_1",
       "persistentUuid": "9a9cd475-6011-4411-ad64-079f07b2567b",
       "width": 107,
       "x": 445,
@@ -869,7 +783,7 @@
       "height": 113,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite8",
+      "name": "Black_Rook_1",
       "persistentUuid": "22610e98-6c57-44b8-8a78-df662c7c192d",
       "width": 113,
       "x": 263,
@@ -883,27 +797,10 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 113,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite8",
-      "persistentUuid": "f608a255-c4e1-4e2d-81ae-e6ab9d1af637",
-      "width": 113,
-      "x": 893,
-      "y": -16,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 96,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite10",
+      "name": "Black_Queen_1",
       "persistentUuid": "7349c6d2-9a9c-48c2-95bb-51a5bd76bb23",
       "width": 96,
       "x": 540,
@@ -920,7 +817,7 @@
       "height": 105,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite12",
+      "name": "Black_King_1",
       "persistentUuid": "4f69899b-540f-428a-810e-0ea19cd9bb2a",
       "width": 105,
       "x": 627,
@@ -1000,15 +897,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 114,
+      "height": 117,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite16",
-      "persistentUuid": "acc0c6a1-068f-40eb-b49d-94245e224cbf",
-      "width": 114,
-      "x": 353,
-      "y": 524,
-      "zOrder": 18,
+      "name": "Black_Pawn_2",
+      "persistentUuid": "15d3c448-0167-4323-b8a1-df1c9c120166",
+      "width": 117,
+      "x": 350,
+      "y": 71,
+      "zOrder": 25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1017,15 +914,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 114,
+      "height": 117,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite17",
-      "persistentUuid": "5ef694a0-9861-4177-836d-8993d09b1ffe",
-      "width": 114,
-      "x": 443,
-      "y": 524,
-      "zOrder": 19,
+      "name": "Black_Pawn_3",
+      "persistentUuid": "ccba8835-a2a3-43c3-87f3-c73dfee11a17",
+      "width": 117,
+      "x": 440,
+      "y": 70,
+      "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1034,32 +931,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 114,
+      "height": 118,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite22",
-      "persistentUuid": "c5ddf6a8-3395-4d6e-a434-84a6dd8a34ae",
-      "width": 114,
-      "x": 533,
-      "y": 524,
-      "zOrder": 20,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 115,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NewSprite21",
-      "persistentUuid": "3b581503-f732-4c86-854f-e7786d6e417e",
-      "width": 115,
-      "x": 623,
-      "y": 524,
-      "zOrder": 21,
+      "name": "Black_Pawn_4",
+      "persistentUuid": "d5d532aa-3ec8-472a-8466-67f48c3055df",
+      "width": 118,
+      "x": 530,
+      "y": 70,
+      "zOrder": 27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1071,12 +951,29 @@
       "height": 115,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite20",
-      "persistentUuid": "e5a615a1-bfec-463d-aad2-13ef4849dcc1",
+      "name": "Black_Pawn_5",
+      "persistentUuid": "6864a646-8904-479f-a141-9f9bc9c8e40e",
       "width": 115,
-      "x": 713,
-      "y": 524,
-      "zOrder": 22,
+      "x": 622,
+      "y": 71,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 117,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Black_Pawn_6",
+      "persistentUuid": "23306469-23be-4b8c-bb9d-d6918364fd2a",
+      "width": 117,
+      "x": 709,
+      "y": 71,
+      "zOrder": 29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1088,12 +985,12 @@
       "height": 115,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite19",
-      "persistentUuid": "09d31a25-fb6b-47fd-bb3a-ac3c7e1244e6",
+      "name": "Black_Pawn_7",
+      "persistentUuid": "718dfe34-db2d-4117-9b9b-bce1d20acaa4",
       "width": 115,
-      "x": 803,
-      "y": 524,
-      "zOrder": 23,
+      "x": 800,
+      "y": 71,
+      "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1102,15 +999,245 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 114,
+      "height": 115,
       "keepRatio": true,
       "layer": "",
-      "name": "NewSprite18",
-      "persistentUuid": "7c1a3a36-3e66-4f03-91a5-4de374c8ded3",
-      "width": 114,
+      "name": "Black_Pawn_8",
+      "persistentUuid": "7a211cfb-30cf-4a12-b963-65cae91f4e24",
+      "width": 115,
+      "x": 891,
+      "y": 72,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 110,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Black_Horse_2",
+      "persistentUuid": "0975cc9a-1786-4964-8665-8764fb62009d",
+      "width": 110,
+      "x": 804,
+      "y": -11,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 110,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Black_Rook_2",
+      "persistentUuid": "3a48fb59-f7b3-4035-af71-f17caa8397a5",
+      "width": 110,
       "x": 893,
-      "y": 524,
-      "zOrder": 24,
+      "y": -13,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Black_Bishop_2",
+      "persistentUuid": "1c24f531-daf7-49b9-bcd4-0991bfe8383a",
+      "width": 108,
+      "x": 715,
+      "y": -10,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_1",
+      "persistentUuid": "f6678d48-9bbd-4642-8cfa-eff63c7ba1fd",
+      "width": 0,
+      "x": 259,
+      "y": 521,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_2",
+      "persistentUuid": "e31edbd9-b413-4cb1-af34-60a7bc941046",
+      "width": 0,
+      "x": 348,
+      "y": 519,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_3",
+      "persistentUuid": "37935f8e-ef06-4d82-bf08-8137790f733e",
+      "width": 0,
+      "x": 439,
+      "y": 520,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_4",
+      "persistentUuid": "85f587f4-5db5-467f-b3bc-de35ec598592",
+      "width": 0,
+      "x": 529,
+      "y": 519,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_5",
+      "persistentUuid": "2724104d-8c53-46f2-8289-ed666cacdcc1",
+      "width": 0,
+      "x": 618,
+      "y": 520,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_6",
+      "persistentUuid": "62590836-2025-432e-9cce-ec5d2e02b70f",
+      "width": 0,
+      "x": 708,
+      "y": 518,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_7",
+      "persistentUuid": "2550af04-d16a-4910-9bf1-2645e3d663c8",
+      "width": 0,
+      "x": 798,
+      "y": 518,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Pawn_8",
+      "persistentUuid": "b147c4b9-2055-484a-bcba-26dee184c60c",
+      "width": 0,
+      "x": 888,
+      "y": 518,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 117,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Rook_2",
+      "persistentUuid": "872eae08-6df1-464a-94b6-ab42f0bf0450",
+      "width": 117,
+      "x": 890,
+      "y": 612,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 108,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Bishop_2",
+      "persistentUuid": "04fe6db4-d7a6-4853-b8fc-9787b4a72ba3",
+      "width": 108,
+      "x": 713,
+      "y": 620,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 113,
+      "keepRatio": true,
+      "layer": "",
+      "name": "White_Horse_2",
+      "persistentUuid": "705cc0f7-4412-41f8-b094-bdfc2647cfdd",
+      "width": 113,
+      "x": 802,
+      "y": 615,
+      "zOrder": 46,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1136,43 +1263,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "White_Pawn_1",
       "persistentUuid": "4c6c590f-92f4-460f-b58f-cbf87e2bf9d2",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "e4c67f8a-4915-4cb6-a818-393b434331d0",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "07ed68f8-1e22-4be8-80a8-12fea539e8a8",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "4da5a502-9c19-4d35-9113-60cd3fa56608",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "e6cd0cec-885d-4cdf-be68-73623c5800c4",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "26af9fd1-8581-497f-a3c6-4c12d28d96a5",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "5a5f9ebc-f83b-4380-b149-eca60f87a94b",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "2317ae8a-bd3c-4e91-b994-2432a45291fa",
           "type": "boolean",
           "value": true
         }
@@ -1239,43 +1373,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite2",
+      "name": "Black_Pawn_1",
       "persistentUuid": "a7bd201c-9c5e-4425-b6c2-66f4c0cf37b5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "7fd4b8ed-5628-4ce8-a7df-fbfbf4307b5e",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "e6dc6dc4-aa1a-40a1-891c-d70c8b944e3b",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "7466edaa-2996-4047-a8a6-c3493b662e69",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "9d2a3bdb-2550-4913-8998-f5257a8c8be7",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "be184b8b-2a4a-4dde-b7b3-d8cc7eadd661",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "26eb737c-4508-4bd5-9586-498c975826ee",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "b55929a3-0633-4c08-8475-ddcb37b86f25",
           "type": "boolean",
           "value": true
         }
@@ -1342,43 +1483,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite3",
+      "name": "White_Horse_1",
       "persistentUuid": "8e387bc6-e103-4493-b609-463be0be57d6",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "f1993467-666e-45a2-8198-49c47bb4614c",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "b2fcbf7c-0caf-4721-99e4-842b4092c008",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "b38ce930-2ff4-43ed-94cc-5c2bd43466cc",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "d279cee3-98e5-4be1-801b-cc119f8eebbb",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "8e56b280-7ca3-473e-9997-6261b9d0d3c7",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "aa7ea21f-077e-46d3-8345-d5260f767f11",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "da3ad11e-afd2-483c-8a29-4e66676ad27f",
           "type": "boolean",
           "value": true
         }
@@ -1445,43 +1593,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite4",
+      "name": "Black_Horse_1",
       "persistentUuid": "554b59f2-5ed1-44e8-bb71-074fad3d1cdb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "0bfacc33-4a1c-4432-9ed5-3a1943cfb395",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "4e9e252c-5684-4675-bf32-d63a81186162",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "feaecd7a-eca4-4adc-b345-07173fdd86ce",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "2bc346a8-9d45-4d45-b43c-14506c4cb7c5",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "499bae1e-55a8-40e5-aa39-9bcd6d42ced3",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "17e1d68b-3688-4579-99d5-90b918206496",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "cd49f42c-ed3c-4550-84a5-f2c1dafbc8c0",
           "type": "boolean",
           "value": true
         }
@@ -1548,43 +1703,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite5",
+      "name": "White_Bishop_1",
       "persistentUuid": "ae15c674-cd80-4c44-807a-2e9ae3a41dca",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "8fdce480-7deb-4ebf-8edb-612ad09c14c2",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "a3ae2d69-a451-47a8-a9fd-8d31264f902f",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "83b05bb0-6ed5-4076-a93d-6c6147f53411",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "47a7dbae-6ccd-4771-882f-a4ee32742ce2",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "1316a1a5-1a82-4f54-96e5-2a980c37e891",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "fd55549d-71f1-48a1-991c-f20e2c372266",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "7f4e6992-c4b1-4e2b-905e-8981b58f92b2",
           "type": "boolean",
           "value": true
         }
@@ -1651,43 +1813,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite6",
+      "name": "Black_Bishop_1",
       "persistentUuid": "80fba153-da35-435d-b4ef-096b94d0fdfb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "592363e8-7756-420d-95b4-ff79d093ebcf",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "c703d954-ad60-46b2-af25-140f5fcdf476",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "5dd28f97-59d0-4365-b592-3c5c8341f1b4",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "449299df-9ca9-4ae7-ac16-c699765b8267",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "4788e38b-e270-47b5-8e58-744800796f02",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "9252da5a-0d0c-4a3e-86b5-df9456eb9039",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "6ca86520-8f90-4f06-b318-a0eb237cd5de",
           "type": "boolean",
           "value": true
         }
@@ -1754,43 +1923,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite7",
+      "name": "White_Rook_1",
       "persistentUuid": "86be7d3e-8e98-4b89-b199-6e80d8f9fe3c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "698a3ffd-3305-428c-b8fa-caf7cec85ba3",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "520235bd-4494-4171-b859-7940e4f78adb",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "33c92adc-31ec-464c-8ddf-8d6fe49acce2",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "3a7947cb-2500-48aa-a1a1-e51355ddabbf",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "a1b4e1b3-154c-463f-9d37-414714957872",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "bc5ec014-907d-486b-adac-4bbbdbadcd3f",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "bc0253fb-d88b-46c8-86dd-130db5199f71",
           "type": "boolean",
           "value": true
         }
@@ -1857,43 +2033,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite8",
+      "name": "Black_Rook_1",
       "persistentUuid": "97208428-ba27-447b-8271-676c3ff9227a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "e4cea728-4c6d-48f8-89f4-2d1f5c0cecd7",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "8bd9f131-3508-4d0b-a58c-6eec0ff788a3",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "41cfb6e2-ad02-403d-a7c8-3f7925bb9b03",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "e6326893-927d-471d-9bc3-4885eb3b718c",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "6a500fe2-3bc1-4428-9a80-68d7523c7ca1",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "d0bd7317-6707-4f7b-b3cd-0b62898dfec9",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "d0cb9950-4071-4963-b6bc-9c837d25edd0",
           "type": "boolean",
           "value": true
         }
@@ -1960,43 +2143,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite9",
+      "name": "White_Queen_1",
       "persistentUuid": "6d93795d-ca41-4c92-9d10-4c98b4d40525",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "a743ec12-6359-4f74-a100-b0e47a5900d4",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "1a465cd2-0b87-4713-9741-e6737e38dec2",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "22ea8aa5-6dd4-4ee2-97e6-046743869985",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "8bddb235-9606-47bd-87cf-388a632ee0fc",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "c0fc21ee-3482-4a22-a6e0-ef618e30bce4",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "fabdc74d-5ce1-4df9-a36e-258d2e195578",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "c89c4146-d255-4e11-8c8f-047ec257bb08",
           "type": "boolean",
           "value": true
         }
@@ -2063,43 +2253,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite10",
+      "name": "Black_Queen_1",
       "persistentUuid": "de78cffd-278b-4072-a1c6-7b984b35138a",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "a0ecee03-5cf5-4dee-977f-edaeccf15ea3",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "e05287dd-43b7-403b-8b83-b51f370c430b",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "ffd4dbf7-ce9f-4939-aca1-156845ee5654",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "ef11a23c-b2e2-48e2-ae8f-e820e50a30f8",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "7b26474e-8729-40fc-9814-49efcd52bd69",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "e19d11ca-a76c-4e11-90da-9742f1f8d0d0",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "ea163065-f8d8-4699-9d09-3035bf4eb7ab",
           "type": "boolean",
           "value": true
         }
@@ -2166,43 +2363,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite11",
+      "name": "White_King_1",
       "persistentUuid": "016be236-a616-4876-8130-20d8c7d16470",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "f86910f9-66d1-4e08-9511-9283cd840ad6",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "bc4e1a2e-f7d1-4962-96c7-f8621b7bb01b",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "837d8a81-80d5-41ac-9d16-c8bd0bd50f31",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "ef904895-70fb-4819-85b6-1724fe462fdb",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "675347d4-0a59-4f6e-a713-a8f534220308",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "d0d45279-4920-4d5e-9cd4-206720b0bb17",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "3e11e5b8-8101-47db-bac3-6d43b7c238e6",
           "type": "boolean",
           "value": true
         }
@@ -2269,43 +2473,50 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite12",
+      "name": "Black_King_1",
       "persistentUuid": "5668c5b8-e799-419c-8c07-e70f34a7221f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "name": "Grid_X",
+          "persistentUuid": "cda2c436-aac8-4ab5-abf6-940e7d49774d",
           "type": "number",
           "value": 0
         },
         {
           "name": "Grid_Y",
+          "persistentUuid": "6c5f748c-69d5-4123-af83-6a7986a00cca",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewXPosition",
+          "persistentUuid": "55c62234-9b1a-49c9-9bc4-12f49217dbf8",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewYPosition",
+          "persistentUuid": "5b101a05-f188-4ee0-af0e-3f2d79a1b978",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastXPosition",
+          "persistentUuid": "aab908dd-86d7-415d-8b32-0df853787a52",
           "type": "number",
           "value": 0
         },
         {
           "name": "LastYPosition",
+          "persistentUuid": "d711d7d8-6156-4fc2-91f8-6a04b14967bd",
           "type": "number",
           "value": 0
         },
         {
           "name": "Occupied",
+          "persistentUuid": "b016162a-1004-4824-889a-97651f651b7f",
           "type": "boolean",
           "value": true
         }
@@ -2686,7 +2897,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite16",
+      "name": "White_Pawn_2",
       "persistentUuid": "42db191f-9209-498e-9e05-3a734bbadcf9",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2796,7 +3007,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite17",
+      "name": "White_Pawn_3",
       "persistentUuid": "778c563f-fda6-4081-b5f8-373e1c36c7d7",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -2906,7 +3117,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite18",
+      "name": "White_Pawn_8",
       "persistentUuid": "c096dd6f-38f8-44d7-aa1a-5ce78048fc3f",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3016,7 +3227,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite19",
+      "name": "White_Pawn_7",
       "persistentUuid": "4d5547b6-616f-444c-8225-3dd871f09e7c",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3126,7 +3337,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite20",
+      "name": "White_Pawn_6",
       "persistentUuid": "74363326-2be0-49f8-8e11-152efae737f9",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3236,7 +3447,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite21",
+      "name": "White_Pawn_5",
       "persistentUuid": "c7397ad4-db85-4f63-92b4-8b278a108ab7",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3346,7 +3557,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite22",
+      "name": "White_Pawn_4",
       "persistentUuid": "7fc6b694-5805-49b8-86dc-9a66481368f9",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3456,7 +3667,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite23",
+      "name": "Black_Pawn_8",
       "persistentUuid": "ba0ec34a-3a8c-4ea0-863f-bb7952b1b2ac",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3566,7 +3777,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite24",
+      "name": "Black_Pawn_7",
       "persistentUuid": "df28873d-0ae6-411e-a337-84e550294e00",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3676,7 +3887,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite25",
+      "name": "Black_Pawn_6",
       "persistentUuid": "b40dfefb-bbc5-4093-a55f-c4b6a78e834f",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3786,7 +3997,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite26",
+      "name": "Black_Pawn_5",
       "persistentUuid": "24c67a12-731b-4546-ad66-ca1a97e39d92",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -3896,7 +4107,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite27",
+      "name": "Black_Pawn_4",
       "persistentUuid": "588ea7ae-599c-453b-bca1-be67a74de282",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -4006,7 +4217,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite28",
+      "name": "Black_Pawn_3",
       "persistentUuid": "2b652404-8706-41a6-a400-13f638fe9b98",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -4116,7 +4327,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite29",
+      "name": "Black_Pawn_2",
       "persistentUuid": "2fc427c6-2bd1-4fbd-9470-9026c8cff903",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -4222,6 +4433,666 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Black_Horse_2",
+      "persistentUuid": "af14e9fb-54e5-4d9d-bf40-3011e2af98fa",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "4387b6af-a66c-43ca-b59b-353aa1766376",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "5ec9ef0f-afd0-41a8-a0ad-ebd6d18c0a04",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "fae60f08-c57d-4c00-a584-02e26a040a40",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "45827365-1588-4ed2-b786-cdf1d4f5fa4c",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "825db6d9-76a2-4a4d-b5c1-40ab4bdcdaa7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "8e138406-4a34-4a11-8984-73d2a640355b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "7077ce7b-d9de-4766-a3dc-f0e7bec3ea6f",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_ndt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 104,
+                        "y": 17
+                      },
+                      {
+                        "x": 104,
+                        "y": 107
+                      },
+                      {
+                        "x": 14,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Black_Bishop_2",
+      "persistentUuid": "f92311fa-8728-43f4-8289-3ae143eadfc6",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "793c0574-7d8d-49b9-9381-2cee407f9afe",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "6391a425-97d2-4ac2-a982-51acbdab2810",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "a5ab1be1-9659-4c44-930a-274f06f08cf7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "cdf2ae99-dfc0-4354-84ef-7008a3bda367",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "67ee3005-d871-4bff-9386-5fecd314fd9e",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "45e040db-76a9-4b05-9b73-109adfa1f189",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "f93e9103-69c3-4adc-ad93-471010b2e66b",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_bdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 14
+                      },
+                      {
+                        "x": 106,
+                        "y": 14
+                      },
+                      {
+                        "x": 106,
+                        "y": 107
+                      },
+                      {
+                        "x": 14,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Black_Rook_2",
+      "persistentUuid": "612a94bf-6d21-4eb1-bc33-61b14d97a7e2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "119afbc3-b34a-4f5a-ba10-221eb887608c",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "51a43b11-0c97-422a-b11e-a8115b186a88",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "c8a4539a-ebcd-4e5d-9b64-94d5a51b3fd1",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "41739898-c414-469b-a5a4-8c5093081cea",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "37355f1a-42b1-4cfb-bbb4-fa49f4240f52",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "bd835306-06fb-4f74-a27f-33e344e444de",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "30fac817-3d75-4ea6-8ddf-3483fe0b36d5",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_rdt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 23
+                      },
+                      {
+                        "x": 98,
+                        "y": 23
+                      },
+                      {
+                        "x": 98,
+                        "y": 107
+                      },
+                      {
+                        "x": 22,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "White_Horse_2",
+      "persistentUuid": "9d097a4a-fde6-4ba6-8f54-c1c4aa957bf1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "89d4db77-9ed9-4e97-82da-24057af018f0",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "3559c5d6-8b00-4162-a93a-82ed76f2b701",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "3a54e506-8a81-4a33-8fb0-f58f27c16c11",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "94ca541e-3159-4f7b-957e-b1b123170c59",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "dad2bb22-726d-47ba-b54f-dea996c10807",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "d2d0f616-1025-492a-82cd-451b99c0888b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "c3dd42b8-e97b-49ac-a51d-606d2c0b628f",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_nlt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 17
+                      },
+                      {
+                        "x": 104,
+                        "y": 17
+                      },
+                      {
+                        "x": 104,
+                        "y": 107
+                      },
+                      {
+                        "x": 14,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "White_Bishop_2",
+      "persistentUuid": "d6dac445-beb0-41a9-a05e-d4ba59d48dec",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "0435b498-8f98-4041-9324-6d0eaa5ea58d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "b4dfec23-4f42-4eae-8e96-d92cc88a337b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "8f122b66-50f1-48c8-ae39-8345405d2e96",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "daf09279-4849-4d7c-955e-721543040ebf",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "3ffaf9b0-28f3-4f35-97b1-a4f334e5b38a",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "cc4b7164-72a6-4e89-b36e-c3912aa2ba95",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "7965a1c2-e241-47a1-8dbb-427ace3c804b",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_blt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 14
+                      },
+                      {
+                        "x": 106,
+                        "y": 14
+                      },
+                      {
+                        "x": 106,
+                        "y": 107
+                      },
+                      {
+                        "x": 14,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "White_Rook_2",
+      "persistentUuid": "8248b814-cd15-4b52-b77f-69049101b615",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Grid_X",
+          "persistentUuid": "925ce461-b1ef-40aa-9bd1-11b178bacb28",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Grid_Y",
+          "persistentUuid": "29c00ae1-0bbf-4d71-a45d-ef72cd108fe3",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewXPosition",
+          "persistentUuid": "9b35eb4d-e194-404c-af93-84f5616621e7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "NewYPosition",
+          "persistentUuid": "37852cee-9a6f-4f34-9c9c-1ee4b7209fec",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastXPosition",
+          "persistentUuid": "5609153e-d9cd-4b2b-a41b-b065d6613035",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "LastYPosition",
+          "persistentUuid": "886f27dc-8a94-46bb-80bb-3940f9eeeb23",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Occupied",
+          "persistentUuid": "a6967c63-4649-4229-a446-c5275ae8a238",
+          "type": "boolean",
+          "value": true
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Draggable",
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Chess_rlt45.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 23
+                      },
+                      {
+                        "x": 98,
+                        "y": 23
+                      },
+                      {
+                        "x": 98,
+                        "y": 107
+                      },
+                      {
+                        "x": 22,
+                        "y": 107
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4231,82 +5102,100 @@
         "objectName": "NewTileMap"
       },
       {
-        "objectName": "NewSprite2"
+        "objectName": "Black_Pawn_1"
       },
       {
-        "objectName": "NewSprite29"
+        "objectName": "Black_Pawn_2"
       },
       {
-        "objectName": "NewSprite28"
+        "objectName": "Black_Pawn_3"
       },
       {
-        "objectName": "NewSprite27"
+        "objectName": "Black_Pawn_4"
       },
       {
-        "objectName": "NewSprite26"
+        "objectName": "Black_Pawn_5"
       },
       {
-        "objectName": "NewSprite25"
+        "objectName": "Black_Pawn_6"
       },
       {
-        "objectName": "NewSprite24"
+        "objectName": "Black_Pawn_7"
       },
       {
-        "objectName": "NewSprite23"
+        "objectName": "Black_Pawn_8"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "White_Pawn_1"
       },
       {
-        "objectName": "NewSprite16"
+        "objectName": "White_Pawn_2"
       },
       {
-        "objectName": "NewSprite17"
+        "objectName": "White_Pawn_3"
       },
       {
-        "objectName": "NewSprite22"
+        "objectName": "White_Pawn_4"
       },
       {
-        "objectName": "NewSprite21"
+        "objectName": "White_Pawn_5"
       },
       {
-        "objectName": "NewSprite20"
+        "objectName": "White_Pawn_6"
       },
       {
-        "objectName": "NewSprite19"
+        "objectName": "White_Pawn_7"
       },
       {
-        "objectName": "NewSprite18"
+        "objectName": "White_Pawn_8"
       },
       {
-        "objectName": "NewSprite3"
+        "objectName": "White_Horse_1"
       },
       {
-        "objectName": "NewSprite4"
+        "objectName": "White_Horse_2"
       },
       {
-        "objectName": "NewSprite5"
+        "objectName": "Black_Horse_1"
       },
       {
-        "objectName": "NewSprite6"
+        "objectName": "Black_Horse_2"
       },
       {
-        "objectName": "NewSprite7"
+        "objectName": "White_Bishop_1"
       },
       {
-        "objectName": "NewSprite8"
+        "objectName": "White_Bishop_2"
       },
       {
-        "objectName": "NewSprite9"
+        "objectName": "Black_Bishop_1"
       },
       {
-        "objectName": "NewSprite10"
+        "objectName": "Black_Bishop_2"
       },
       {
-        "objectName": "NewSprite11"
+        "objectName": "White_Rook_1"
       },
       {
-        "objectName": "NewSprite12"
+        "objectName": "White_Rook_2"
+      },
+      {
+        "objectName": "Black_Rook_1"
+      },
+      {
+        "objectName": "Black_Rook_2"
+      },
+      {
+        "objectName": "White_Queen_1"
+      },
+      {
+        "objectName": "Black_Queen_1"
+      },
+      {
+        "objectName": "White_King_1"
+      },
+      {
+        "objectName": "Black_King_1"
       },
       {
         "objectName": "NewText"
@@ -4496,7 +5385,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01KYKKHC54N2N0RFNG4SVWG5BQ",
+      "aiGeneratedEventId": "01M0V5HG2W22X77FH69X3FW9ER",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4563,9 +5452,810 @@
             "=",
             "ToString(DraggablePiece.Grid_X) + \"_\" + ToString(DraggablePiece.Grid_Y)"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ColumnChange",
+            "=",
+            "GridCol - DraggablePiece.Grid_X"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "RowChange",
+            "=",
+            "GridRow - DraggablePiece.Grid_Y"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ColumnDistance",
+            "=",
+            "abs(ColumnChange)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "RowDistance",
+            "=",
+            "abs(RowChange)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ColumnDirection",
+            "=",
+            "sign(ColumnChange)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "RowDirection",
+            "=",
+            "sign(RowChange)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MoveDistance",
+            "=",
+            "max(ColumnDistance, RowDistance)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SquaresToCheck",
+            "=",
+            "max(MoveDistance - 1, 0)"
+          ]
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece.ObjectName(), \"Pawn\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnChange",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowChange",
+                            "=",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[NewKey]",
+                            "=",
+                            "\"0\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnChange",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowChange",
+                            "=",
+                            "-2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "DraggablePiece",
+                            "Grid_Y",
+                            "=",
+                            "6"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[NewKey]",
+                            "=",
+                            "\"0\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[ToString(DraggablePiece.Grid_X) + \"_\" + ToString(DraggablePiece.Grid_Y - 1)]",
+                            "=",
+                            "\"0\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnDistance",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowChange",
+                            "=",
+                            "-1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[NewKey]",
+                            "=",
+                            "\"B\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMoveLegal",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece.ObjectName(), \"Horse\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnDistance",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowDistance",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnDistance",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowDistance",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "IsMoveLegal",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece.ObjectName(), \"Bishop\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "ColumnDistance",
+                    "=",
+                    "RowDistance"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "SquaresToCheck",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[ToString(DraggablePiece.Grid_X + ColumnDirection * (I + 1)) + \"_\" + ToString(DraggablePiece.Grid_Y + RowDirection * (I + 1))]",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "IsPathClear",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "I",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ],
+                  "loopIndexVariable": "I"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "IsPathClear",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsMoveLegal",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece.ObjectName(), \"Rook\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ColumnChange",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "RowChange",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "SquaresToCheck",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[ToString(DraggablePiece.Grid_X + ColumnDirection * (I + 1)) + \"_\" + ToString(DraggablePiece.Grid_Y + RowDirection * (I + 1))]",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "IsPathClear",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "I",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ],
+                  "loopIndexVariable": "I"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "IsPathClear",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsMoveLegal",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "ToString(StrFind(DraggablePiece.ObjectName(), \"King\"))",
+                    "!=",
+                    "\"-1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "ToString(StrFind(DraggablePiece.ObjectName(), \"Queen\"))",
+                    "!=",
+                    "\"-1\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "DraggablePiece.ObjectName()",
+                    "=",
+                    "\"White_King_1\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ColumnDistance",
+                        "<=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "RowDistance",
+                        "<=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsMoveLegal",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnChange",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowChange",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnDistance",
+                            "=",
+                            "RowDistance"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "SquaresToCheck",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Board[ToString(DraggablePiece.Grid_X + ColumnDirection * (I + 1)) + \"_\" + ToString(DraggablePiece.Grid_Y + RowDirection * (I + 1))]",
+                                "!=",
+                                "\"0\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "IsPathClear",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "variables": [
+                        {
+                          "name": "I",
+                          "type": "number",
+                          "value": 0
+                        }
+                      ],
+                      "loopIndexVariable": "I"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "IsPathClear",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "IsMoveLegal",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -4690,6 +6380,53 @@
         },
         {
           "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "IsMoveLegal",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "NewKey",
+                "!=",
+                "OldKey"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "=",
+                "DraggablePiece.LastXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "DraggablePiece",
+                "=",
+                "DraggablePiece.LastYPosition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
           "conditions": [],
           "actions": [
             {
@@ -4762,28 +6499,92 @@
       "variables": [
         {
           "name": "GridCol",
+          "persistentUuid": "2e36b7fe-890b-4480-839a-1b05d175d960",
           "type": "number",
           "value": 0
         },
         {
           "name": "GridRow",
+          "persistentUuid": "8fe62908-7b48-49aa-a66a-1a9a1f2300fd",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewKey",
+          "persistentUuid": "dfb6347b-a9ec-471b-80a0-e4b7fe8d0c14",
           "type": "string",
           "value": ""
         },
         {
           "name": "OldKey",
+          "persistentUuid": "216f6b6d-2fcc-458c-a0f0-05e1694c0903",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "IsMoveLegal",
+          "persistentUuid": "506a7886-6c87-43f7-b0f4-e93a0aea7070",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ColumnChange",
+          "persistentUuid": "75d51a9e-7685-4ffe-9429-c4ddb0e378ae",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RowChange",
+          "persistentUuid": "c7f1fb91-eca5-4d0d-b44e-f7f0d5c0bebb",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ColumnDistance",
+          "persistentUuid": "ffe68be6-1167-4e19-a699-d918965f5905",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RowDistance",
+          "persistentUuid": "107a372b-ec88-4eba-80ef-fe733366b900",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ColumnDirection",
+          "persistentUuid": "7f36ef11-6185-4f63-8365-e57b7c6c8a02",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RowDirection",
+          "persistentUuid": "10d9e583-8f25-4a45-82ed-349a29181a42",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MoveDistance",
+          "persistentUuid": "cf0f8af2-3e33-4e73-96a2-ff20c5fe14f3",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SquaresToCheck",
+          "persistentUuid": "7b403134-c80f-4d71-95e7-8c84730412db",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "IsPathClear",
+          "persistentUuid": "84b6d7a5-ecef-401b-bd0b-bd462f45b261",
+          "type": "number",
+          "value": 1
         }
       ]
     },
     {
-      "aiGeneratedEventId": "01KYKKHC54N2N0RFNG4SVWG5BQ",
+      "aiGeneratedEventId": "01M0V5KF04NVTM033K1BVR7EHK",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -4850,9 +6651,810 @@
             "=",
             "ToString(DraggablePiece_Black.Grid_X) + \"_\" + ToString(DraggablePiece_Black.Grid_Y)"
           ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ColumnDelta",
+            "=",
+            "GridCol - DraggablePiece_Black.Grid_X"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "RowDelta",
+            "=",
+            "GridRow - DraggablePiece_Black.Grid_Y"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "AbsColumnDelta",
+            "=",
+            "abs(ColumnDelta)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "AbsRowDelta",
+            "=",
+            "abs(RowDelta)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ColumnDirection",
+            "=",
+            "sign(ColumnDelta)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "RowDirection",
+            "=",
+            "sign(RowDelta)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "MoveDistance",
+            "=",
+            "max(AbsColumnDelta, AbsRowDelta)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "SquaresToCheck",
+            "=",
+            "max(MoveDistance - 1, 0)"
+          ]
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Pawn\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnDelta",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowDelta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[NewKey]",
+                            "=",
+                            "\"0\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnDelta",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowDelta",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberObjectVariable"
+                          },
+                          "parameters": [
+                            "DraggablePiece_Black",
+                            "Grid_Y",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[NewKey]",
+                            "=",
+                            "\"0\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[ToString(DraggablePiece_Black.Grid_X) + \"_\" + ToString(DraggablePiece_Black.Grid_Y + 1)]",
+                            "=",
+                            "\"0\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AbsColumnDelta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowDelta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[NewKey]",
+                            "=",
+                            "\"W\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "MoveIsLegal",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Horse\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AbsColumnDelta",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AbsRowDelta",
+                            "=",
+                            "2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::And"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AbsColumnDelta",
+                            "=",
+                            "2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AbsRowDelta",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "MoveIsLegal",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Bishop\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "AbsColumnDelta",
+                    "=",
+                    "AbsRowDelta"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "SquaresToCheck",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[ToString(DraggablePiece_Black.Grid_X + ColumnDirection * (I + 1)) + \"_\" + ToString(DraggablePiece_Black.Grid_Y + RowDirection * (I + 1))]",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "PathIsClear",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "I",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ],
+                  "loopIndexVariable": "I"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PathIsClear",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "MoveIsLegal",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Rook\"))",
+                "!=",
+                "\"-1\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "ColumnDelta",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "RowDelta",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "SquaresToCheck",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "StringVariable"
+                          },
+                          "parameters": [
+                            "Board[ToString(DraggablePiece_Black.Grid_X + ColumnDirection * (I + 1)) + \"_\" + ToString(DraggablePiece_Black.Grid_Y + RowDirection * (I + 1))]",
+                            "!=",
+                            "\"0\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "PathIsClear",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "I",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ],
+                  "loopIndexVariable": "I"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "PathIsClear",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "MoveIsLegal",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"King\"))",
+                    "!=",
+                    "\"-1\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Queen\"))",
+                    "!=",
+                    "\"-1\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black.ObjectName()",
+                    "=",
+                    "\"Black_King_1\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "AbsColumnDelta",
+                        "<=",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "AbsRowDelta",
+                        "<=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "MoveIsLegal",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "ColumnDelta",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "RowDelta",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "AbsColumnDelta",
+                            "=",
+                            "AbsRowDelta"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Repeat",
+                      "repeatExpression": "SquaresToCheck",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "StringVariable"
+                              },
+                              "parameters": [
+                                "Board[ToString(DraggablePiece_Black.Grid_X + ColumnDirection * (I + 1)) + \"_\" + ToString(DraggablePiece_Black.Grid_Y + RowDirection * (I + 1))]",
+                                "!=",
+                                "\"0\""
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "PathIsClear",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "variables": [
+                        {
+                          "name": "I",
+                          "type": "number",
+                          "value": 0
+                        }
+                      ],
+                      "loopIndexVariable": "I"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "PathIsClear",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "MoveIsLegal",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -4939,6 +7541,53 @@
                 "Board[NewKey]",
                 "=",
                 "\"B\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareStrings"
+              },
+              "parameters": [
+                "NewKey",
+                "!=",
+                "OldKey"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "=",
+                "DraggablePiece_Black.LastXPosition"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "DraggablePiece_Black",
+                "=",
+                "DraggablePiece_Black.LastYPosition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Else",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "MoveIsLegal",
+                "False",
+                ""
               ]
             },
             {
@@ -5066,6 +7715,56 @@
           "name": "OldKey",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "MoveIsLegal",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "ColumnDelta",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RowDelta",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AbsColumnDelta",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "AbsRowDelta",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "ColumnDirection",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "RowDirection",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "MoveDistance",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "SquaresToCheck",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "PathIsClear",
+          "type": "number",
+          "value": 1
         }
       ]
     },
@@ -5484,6 +8183,10 @@
     {
       "name": "Text",
       "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "TileMap",
+      "type": "TileMap::TileMapBehavior"
     }
   ]
 }
