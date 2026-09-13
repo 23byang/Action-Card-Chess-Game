@@ -20,7 +20,7 @@
     "gridColor": 0,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.46930286525361115,
+    "zoomFactor": 0.5358773932265933,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -280,6 +280,81 @@
     }
   ],
   "variables": [
+    {
+      "name": "SavedNewSquare",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "SavedNewSquareS",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "NewKey",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "BlackKingRow",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "BlackKingCol",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "WhiteKingRow",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "WhiteKingCol",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "KingRow",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "KingColumn",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "EnemyThreat",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "ColumnDistance",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "RowChange",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "ColumnChange",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "IsKingInCheck",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "IsMoveLegal",
+      "type": "boolean",
+      "value": false
+    },
     {
       "name": "Board",
       "type": "structure",
@@ -5289,6 +5364,46 @@
                 "\"W\""
               ]
             }
+          ],
+          "events": [
+            {
+              "aiGeneratedEventId": "01M0XJTZH5RVG6GY4M5PQZHRGW",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "DraggablePiece.ObjectName()",
+                    "=",
+                    "\"White_King_1\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WhiteKingCol",
+                    "=",
+                    "DraggablePiece.Grid_X"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "WhiteKingRow",
+                    "=",
+                    "DraggablePiece.Grid_Y"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -5350,6 +5465,46 @@
                 "\"B\""
               ]
             }
+          ],
+          "events": [
+            {
+              "aiGeneratedEventId": "01M0XJTZH5RVG6GY4M5PQZHRGW",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black.ObjectName()",
+                    "=",
+                    "\"Black_King_1\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BlackKingCol",
+                    "=",
+                    "DraggablePiece_Black.Grid_X"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BlackKingRow",
+                    "=",
+                    "DraggablePiece_Black.Grid_Y"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -5385,7 +5540,7 @@
       ]
     },
     {
-      "aiGeneratedEventId": "01M0V5HG2W22X77FH69X3FW9ER",
+      "aiGeneratedEventId": "01M0VBHZ8N23TH6K6V1ZQX4YHD",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -5552,6 +5707,7 @@
           "actions": [],
           "events": [
             {
+              "aiGeneratedEventId": "01M0XJQNMTV0PQEZWRKGXCGKKY",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -6379,6 +6535,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M0XJYGD8WHB9418H8QGT0DPZ",
           "type": "BuiltinCommonInstructions::Else",
           "conditions": [
             {
@@ -6393,12 +6550,12 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::CompareStrings"
+                "value": "StringVariable"
               },
               "parameters": [
                 "NewKey",
                 "!=",
-                "OldKey"
+                "\"OldKey\""
               ]
             }
           ],
@@ -6426,9 +6583,30 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01M0XK357QDY24D5GGT3F7K4DD",
           "type": "BuiltinCommonInstructions::Else",
           "conditions": [],
           "actions": [
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SavedNewSquare",
+                "=",
+                "Board[NewKey]"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
+                "SavedNewSquareS",
+                "=",
+                "Board[NewKey]"
+              ]
+            },
             {
               "type": {
                 "value": "SetStringVariable"
@@ -6451,46 +6629,961 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "DraggablePiece",
-                "Grid_X",
-                "=",
-                "GridCol"
+                "IsKingInCheck",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "DraggablePiece.ObjectName()",
+                    "=",
+                    "\"White_King_1\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingColumn",
+                    "=",
+                    "GridCol"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingRow",
+                    "=",
+                    "GridRow"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece",
-                "Grid_Y",
-                "=",
-                "GridRow"
+              "aiGeneratedEventId": "01M0XJQNMTV0PQEZWRKGXCGKKY",
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingColumn",
+                    "=",
+                    "WhiteKingCol"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingRow",
+                    "=",
+                    "WhiteKingRow"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece",
-                "LastXPosition",
-                "=",
-                "DraggablePiece.X()"
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "DraggablePiece_Black",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyColumnChange",
+                    "=",
+                    "KingColumn - DraggablePiece_Black.Grid_X"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyRowChange",
+                    "=",
+                    "KingRow - DraggablePiece_Black.Grid_Y"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyColumnDistance",
+                    "=",
+                    "abs(EnemyColumnChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyRowDistance",
+                    "=",
+                    "abs(EnemyRowChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyColumnDirection",
+                    "=",
+                    "sign(EnemyColumnChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyRowDirection",
+                    "=",
+                    "sign(EnemyRowChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyMoveDistance",
+                    "=",
+                    "max(EnemyColumnDistance, EnemyRowDistance)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemySquaresToCheck",
+                    "=",
+                    "max(EnemyMoveDistance - 1, 0)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "IsEnemyPathClear",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EnemyThreat",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Pawn\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyColumnDistance",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyRowChange",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EnemyThreat",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Horse\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnDistance",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyRowDistance",
+                                    "=",
+                                    "2"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnDistance",
+                                    "=",
+                                    "2"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyRowDistance",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EnemyThreat",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Bishop\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyColumnDistance",
+                            "=",
+                            "EnemyRowDistance"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "EnemySquaresToCheck",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Board[ToString(DraggablePiece_Black.Grid_X + EnemyColumnDirection * (J + 1)) + \"_\" + ToString(DraggablePiece_Black.Grid_Y + EnemyRowDirection * (J + 1))]",
+                                    "!=",
+                                    "\"0\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "IsEnemyPathClear",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "variables": [
+                            {
+                              "name": "J",
+                              "type": "number",
+                              "value": 0
+                            }
+                          ],
+                          "loopIndexVariable": "J"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "IsEnemyPathClear",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EnemyThreat",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Rook\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyColumnChange",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyRowChange",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "EnemySquaresToCheck",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Board[ToString(DraggablePiece_Black.Grid_X + EnemyColumnDirection * (J + 1)) + \"_\" + ToString(DraggablePiece_Black.Grid_Y + EnemyRowDirection * (J + 1))]",
+                                    "!=",
+                                    "\"0\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "IsEnemyPathClear",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "variables": [
+                            {
+                              "name": "J",
+                              "type": "number",
+                              "value": 0
+                            }
+                          ],
+                          "loopIndexVariable": "J"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "IsEnemyPathClear",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EnemyThreat",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"King\"))",
+                            "!=",
+                            "\"-1\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "ToString(StrFind(DraggablePiece_Black.ObjectName(), \"Queen\"))",
+                            "!=",
+                            "\"-1\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "DraggablePiece_Black.ObjectName()",
+                            "=",
+                            "\"Black_King_1\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyColumnDistance",
+                                "<=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyRowDistance",
+                                "<=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EnemyThreat",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnChange",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyRowChange",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnDistance",
+                                    "=",
+                                    "EnemyRowDistance"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "EnemySquaresToCheck",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "StringVariable"
+                                      },
+                                      "parameters": [
+                                        "Board[ToString(DraggablePiece_Black.Grid_X + EnemyColumnDirection * (J + 1)) + \"_\" + ToString(DraggablePiece_Black.Grid_Y + EnemyRowDirection * (J + 1))]",
+                                        "!=",
+                                        "\"0\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "IsEnemyPathClear",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "variables": [
+                                {
+                                  "name": "J",
+                                  "type": "number",
+                                  "value": 0
+                                }
+                              ],
+                              "loopIndexVariable": "J"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "IsEnemyPathClear",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyThreat",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "aiGeneratedEventId": "01M0XJQNMTV0PQEZWRKGXCGKKY",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EnemyThreat",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsKingInCheck",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece",
-                "LastYPosition",
-                "=",
-                "DraggablePiece.Y()"
+              "aiGeneratedEventId": "01M0XK357QDY24D5GGT3F7K4DD",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsKingInCheck",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Board[OldKey]",
+                    "=",
+                    "\"W\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Board[NewKey]",
+                    "=",
+                    "SavedNewSquareS"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "DraggablePiece",
+                    "=",
+                    "DraggablePiece.LastXPosition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "DraggablePiece",
+                    "=",
+                    "DraggablePiece.LastYPosition"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece",
+                    "Grid_X",
+                    "=",
+                    "GridCol"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece",
+                    "Grid_Y",
+                    "=",
+                    "GridRow"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece",
+                    "LastXPosition",
+                    "=",
+                    "DraggablePiece.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece",
+                    "LastYPosition",
+                    "=",
+                    "DraggablePiece.Y()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "aiGeneratedEventId": "01M0XJTZH5RVG6GY4M5PQZHRGW",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "DraggablePiece.ObjectName()",
+                        "=",
+                        "\"White_King_1\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "WhiteKingCol",
+                        "=",
+                        "GridCol"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "WhiteKingRow",
+                        "=",
+                        "GridRow"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -6499,92 +7592,176 @@
       "variables": [
         {
           "name": "GridCol",
-          "persistentUuid": "2e36b7fe-890b-4480-839a-1b05d175d960",
+          "persistentUuid": "8a3fac68-f19c-4bdf-bcc9-04b4dae9ac9e",
           "type": "number",
           "value": 0
         },
         {
           "name": "GridRow",
-          "persistentUuid": "8fe62908-7b48-49aa-a66a-1a9a1f2300fd",
+          "persistentUuid": "e68e3891-1e08-4927-a572-575261367d62",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewKey",
-          "persistentUuid": "dfb6347b-a9ec-471b-80a0-e4b7fe8d0c14",
+          "persistentUuid": "3d9fab0a-6ea1-4706-b364-6649c169c2fd",
           "type": "string",
           "value": ""
         },
         {
           "name": "OldKey",
-          "persistentUuid": "216f6b6d-2fcc-458c-a0f0-05e1694c0903",
+          "persistentUuid": "bd264846-fb43-4b8c-a839-9145828584d7",
           "type": "string",
           "value": ""
         },
         {
           "name": "IsMoveLegal",
-          "persistentUuid": "506a7886-6c87-43f7-b0f4-e93a0aea7070",
+          "persistentUuid": "b5be4dfb-8b66-4827-ad31-59e168131fd4",
           "type": "boolean",
           "value": false
         },
         {
           "name": "ColumnChange",
-          "persistentUuid": "75d51a9e-7685-4ffe-9429-c4ddb0e378ae",
+          "persistentUuid": "0bb00c02-0e39-455e-ab0b-d7ec88b8647c",
           "type": "number",
           "value": 0
         },
         {
           "name": "RowChange",
-          "persistentUuid": "c7f1fb91-eca5-4d0d-b44e-f7f0d5c0bebb",
+          "persistentUuid": "3249c8ae-8b5b-42f3-8e62-55f6775d6d36",
           "type": "number",
           "value": 0
         },
         {
           "name": "ColumnDistance",
-          "persistentUuid": "ffe68be6-1167-4e19-a699-d918965f5905",
+          "persistentUuid": "a2c4e1b9-b86c-4db5-a5a5-90bdd9d2a558",
           "type": "number",
           "value": 0
         },
         {
           "name": "RowDistance",
-          "persistentUuid": "107a372b-ec88-4eba-80ef-fe733366b900",
+          "persistentUuid": "f6b1e4db-f0bc-44b2-afe7-c12f4878aa86",
           "type": "number",
           "value": 0
         },
         {
           "name": "ColumnDirection",
-          "persistentUuid": "7f36ef11-6185-4f63-8365-e57b7c6c8a02",
+          "persistentUuid": "681f72e2-b04c-40f0-9243-004c5e13b9a5",
           "type": "number",
           "value": 0
         },
         {
           "name": "RowDirection",
-          "persistentUuid": "10d9e583-8f25-4a45-82ed-349a29181a42",
+          "persistentUuid": "4c912748-27c5-4be1-8952-70c88cbc8efb",
           "type": "number",
           "value": 0
         },
         {
           "name": "MoveDistance",
-          "persistentUuid": "cf0f8af2-3e33-4e73-96a2-ff20c5fe14f3",
+          "persistentUuid": "90eba9d1-a731-4976-92ef-c765ed1aa5d1",
           "type": "number",
           "value": 0
         },
         {
           "name": "SquaresToCheck",
-          "persistentUuid": "7b403134-c80f-4d71-95e7-8c84730412db",
+          "persistentUuid": "9393604b-59ef-4029-b407-6db174ac8d23",
           "type": "number",
           "value": 0
         },
         {
           "name": "IsPathClear",
-          "persistentUuid": "84b6d7a5-ecef-401b-bd0b-bd462f45b261",
+          "persistentUuid": "03e64495-dd83-4c0e-9a1e-ee0be1774d9f",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "IsKingInCheck",
+          "persistentUuid": "cef97026-a854-40bd-af52-e2ccb6d4e6eb",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "KingColumn",
+          "persistentUuid": "692d26b3-05b7-4277-a45d-00343139e5a2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "KingRow",
+          "persistentUuid": "11fc4dc6-29bd-41e3-96ea-a9086fee9d54",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyColumnChange",
+          "persistentUuid": "8bbeb107-cd2f-451d-949f-1dc7521525ea",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyRowChange",
+          "persistentUuid": "a532ee50-9ad0-4214-816a-d9276824bd9d",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyColumnDistance",
+          "persistentUuid": "3b6f92bd-85ff-45ef-a8d5-4174e521c96b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyRowDistance",
+          "persistentUuid": "79a19098-98d9-4bc4-91b8-489937bd6528",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyColumnDirection",
+          "persistentUuid": "d618760e-da95-46f3-9717-6a15f22f5827",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyRowDirection",
+          "persistentUuid": "35de7cc7-4ff5-4c10-a49f-f213633ac951",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyMoveDistance",
+          "persistentUuid": "a2076bd3-00a7-4f04-818e-87b5a9429330",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemySquaresToCheck",
+          "persistentUuid": "81c6e10c-365b-409a-93e0-b3b52fb76a9c",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyThreat",
+          "persistentUuid": "0636cdcd-68cd-4ed7-a24c-03d7deb2b2b7",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "IsEnemyPathClear",
+          "persistentUuid": "ce3786f5-af19-4299-bfc8-7707b4da3d08",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "SavedNewSquare",
+          "persistentUuid": "8fb2bbf6-285d-4bf1-b829-34ef9382e23a",
+          "type": "string",
+          "value": ""
         }
       ]
     },
     {
-      "aiGeneratedEventId": "01M0V5KF04NVTM033K1BVR7EHK",
+      "aiGeneratedEventId": "01M0VBK7CGE0K4DRW763CFCC9D",
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -6657,7 +7834,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "ColumnDelta",
+            "ColumnChange",
             "=",
             "GridCol - DraggablePiece_Black.Grid_X"
           ]
@@ -6667,7 +7844,7 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "RowDelta",
+            "RowChange",
             "=",
             "GridRow - DraggablePiece_Black.Grid_Y"
           ]
@@ -6677,9 +7854,9 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "AbsColumnDelta",
+            "ColumnDistance",
             "=",
-            "abs(ColumnDelta)"
+            "abs(ColumnChange)"
           ]
         },
         {
@@ -6687,9 +7864,9 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "AbsRowDelta",
+            "RowDistance",
             "=",
-            "abs(RowDelta)"
+            "abs(RowChange)"
           ]
         },
         {
@@ -6699,7 +7876,7 @@
           "parameters": [
             "ColumnDirection",
             "=",
-            "sign(ColumnDelta)"
+            "sign(ColumnChange)"
           ]
         },
         {
@@ -6709,7 +7886,7 @@
           "parameters": [
             "RowDirection",
             "=",
-            "sign(RowDelta)"
+            "sign(RowChange)"
           ]
         },
         {
@@ -6719,7 +7896,7 @@
           "parameters": [
             "MoveDistance",
             "=",
-            "max(AbsColumnDelta, AbsRowDelta)"
+            "max(ColumnDistance, RowDistance)"
           ]
         },
         {
@@ -6770,7 +7947,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "ColumnDelta",
+                            "ColumnChange",
                             "=",
                             "0"
                           ]
@@ -6780,7 +7957,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "RowDelta",
+                            "RowChange",
                             "=",
                             "1"
                           ]
@@ -6808,7 +7985,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "ColumnDelta",
+                            "ColumnChange",
                             "=",
                             "0"
                           ]
@@ -6818,7 +7995,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "RowDelta",
+                            "RowChange",
                             "=",
                             "2"
                           ]
@@ -6867,7 +8044,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "AbsColumnDelta",
+                            "ColumnDistance",
                             "=",
                             "1"
                           ]
@@ -6877,7 +8054,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "RowDelta",
+                            "RowChange",
                             "=",
                             "1"
                           ]
@@ -6903,7 +8080,7 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "MoveIsLegal",
+                    "IsMoveLegal",
                     "True",
                     ""
                   ]
@@ -6948,7 +8125,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "AbsColumnDelta",
+                            "ColumnDistance",
                             "=",
                             "1"
                           ]
@@ -6958,7 +8135,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "AbsRowDelta",
+                            "RowDistance",
                             "=",
                             "2"
                           ]
@@ -6976,7 +8153,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "AbsColumnDelta",
+                            "ColumnDistance",
                             "=",
                             "2"
                           ]
@@ -6986,7 +8163,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "AbsRowDelta",
+                            "RowDistance",
                             "=",
                             "1"
                           ]
@@ -7002,7 +8179,7 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
-                    "MoveIsLegal",
+                    "IsMoveLegal",
                     "True",
                     ""
                   ]
@@ -7035,9 +8212,9 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "AbsColumnDelta",
+                    "ColumnDistance",
                     "=",
-                    "AbsRowDelta"
+                    "RowDistance"
                   ]
                 }
               ],
@@ -7069,7 +8246,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "PathIsClear",
+                            "IsPathClear",
                             "=",
                             "0"
                           ]
@@ -7080,6 +8257,7 @@
                   "variables": [
                     {
                       "name": "I",
+                      "persistentUuid": "78da3cd1-51cb-47f9-98ab-bcaa4b820470",
                       "type": "number",
                       "value": 0
                     }
@@ -7094,7 +8272,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "PathIsClear",
+                        "IsPathClear",
                         "=",
                         "1"
                       ]
@@ -7106,7 +8284,7 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "MoveIsLegal",
+                        "IsMoveLegal",
                         "True",
                         ""
                       ]
@@ -7147,7 +8325,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "ColumnDelta",
+                        "ColumnChange",
                         "=",
                         "0"
                       ]
@@ -7157,7 +8335,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "RowDelta",
+                        "RowChange",
                         "=",
                         "0"
                       ]
@@ -7193,7 +8371,7 @@
                             "value": "SetNumberVariable"
                           },
                           "parameters": [
-                            "PathIsClear",
+                            "IsPathClear",
                             "=",
                             "0"
                           ]
@@ -7218,7 +8396,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "PathIsClear",
+                        "IsPathClear",
                         "=",
                         "1"
                       ]
@@ -7230,7 +8408,7 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "MoveIsLegal",
+                        "IsMoveLegal",
                         "True",
                         ""
                       ]
@@ -7299,7 +8477,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "AbsColumnDelta",
+                        "ColumnDistance",
                         "<=",
                         "1"
                       ]
@@ -7309,7 +8487,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "AbsRowDelta",
+                        "RowDistance",
                         "<=",
                         "1"
                       ]
@@ -7321,7 +8499,7 @@
                         "value": "SetBooleanVariable"
                       },
                       "parameters": [
-                        "MoveIsLegal",
+                        "IsMoveLegal",
                         "True",
                         ""
                       ]
@@ -7349,7 +8527,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "ColumnDelta",
+                            "ColumnChange",
                             "=",
                             "0"
                           ]
@@ -7359,7 +8537,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "RowDelta",
+                            "RowChange",
                             "=",
                             "0"
                           ]
@@ -7369,9 +8547,9 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "AbsColumnDelta",
+                            "ColumnDistance",
                             "=",
-                            "AbsRowDelta"
+                            "RowDistance"
                           ]
                         }
                       ]
@@ -7405,7 +8583,7 @@
                                 "value": "SetNumberVariable"
                               },
                               "parameters": [
-                                "PathIsClear",
+                                "IsPathClear",
                                 "=",
                                 "0"
                               ]
@@ -7430,7 +8608,7 @@
                             "value": "NumberVariable"
                           },
                           "parameters": [
-                            "PathIsClear",
+                            "IsPathClear",
                             "=",
                             "1"
                           ]
@@ -7442,7 +8620,7 @@
                             "value": "SetBooleanVariable"
                           },
                           "parameters": [
-                            "MoveIsLegal",
+                            "IsMoveLegal",
                             "True",
                             ""
                           ]
@@ -7585,7 +8763,7 @@
                 "value": "BooleanVariable"
               },
               "parameters": [
-                "MoveIsLegal",
+                "IsMoveLegal",
                 "False",
                 ""
               ]
@@ -7633,6 +8811,16 @@
                 "value": "SetStringVariable"
               },
               "parameters": [
+                "SavedNewSquare",
+                "=",
+                "Board[NewKey]"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetStringVariable"
+              },
+              "parameters": [
                 "Board[OldKey]",
                 "=",
                 "\"0\""
@@ -7650,46 +8838,959 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "DraggablePiece_Black",
-                "Grid_X",
-                "=",
-                "GridCol"
+                "IsKingInCheck",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black.ObjectName()",
+                    "=",
+                    "\"Black_King_1\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingColumn",
+                    "=",
+                    "GridCol"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingRow",
+                    "=",
+                    "GridRow"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece_Black",
-                "Grid_Y",
-                "=",
-                "GridRow"
+              "aiGeneratedEventId": "01M0XJQNMTV0PQEZWRKGXCGKKY",
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingColumn",
+                    "=",
+                    "BlackKingCol"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "KingRow",
+                    "=",
+                    "BlackKingRow"
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece_Black",
-                "LastXPosition",
-                "=",
-                "DraggablePiece_Black.X()"
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "DraggablePiece",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyColumnChange",
+                    "=",
+                    "KingColumn - DraggablePiece.Grid_X"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyRowChange",
+                    "=",
+                    "KingRow - DraggablePiece.Grid_Y"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyColumnDistance",
+                    "=",
+                    "abs(EnemyColumnChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyRowDistance",
+                    "=",
+                    "abs(EnemyRowChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyColumnDirection",
+                    "=",
+                    "sign(EnemyColumnChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyRowDirection",
+                    "=",
+                    "sign(EnemyRowChange)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemyMoveDistance",
+                    "=",
+                    "max(EnemyColumnDistance, EnemyRowDistance)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "EnemySquaresToCheck",
+                    "=",
+                    "max(EnemyMoveDistance - 1, 0)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "IsEnemyPathClear",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EnemyThreat",
+                    "False",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece.ObjectName(), \"Pawn\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyColumnDistance",
+                            "=",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyRowChange",
+                            "=",
+                            "-1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EnemyThreat",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece.ObjectName(), \"Horse\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnDistance",
+                                    "=",
+                                    "1"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyRowDistance",
+                                    "=",
+                                    "2"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::And"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnDistance",
+                                    "=",
+                                    "2"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyRowDistance",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetBooleanVariable"
+                          },
+                          "parameters": [
+                            "EnemyThreat",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece.ObjectName(), \"Bishop\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "EnemyColumnDistance",
+                            "=",
+                            "EnemyRowDistance"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "EnemySquaresToCheck",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Board[ToString(DraggablePiece.Grid_X + EnemyColumnDirection * (J + 1)) + \"_\" + ToString(DraggablePiece.Grid_Y + EnemyRowDirection * (J + 1))]",
+                                    "!=",
+                                    "\"0\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "IsEnemyPathClear",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "variables": [
+                            {
+                              "name": "J",
+                              "type": "number",
+                              "value": 0
+                            }
+                          ],
+                          "loopIndexVariable": "J"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "IsEnemyPathClear",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EnemyThreat",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "ToString(StrFind(DraggablePiece.ObjectName(), \"Rook\"))",
+                        "!=",
+                        "\"-1\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyColumnChange",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyRowChange",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Repeat",
+                          "repeatExpression": "EnemySquaresToCheck",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "StringVariable"
+                                  },
+                                  "parameters": [
+                                    "Board[ToString(DraggablePiece.Grid_X + EnemyColumnDirection * (J + 1)) + \"_\" + ToString(DraggablePiece.Grid_Y + EnemyRowDirection * (J + 1))]",
+                                    "!=",
+                                    "\"0\""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetNumberVariable"
+                                  },
+                                  "parameters": [
+                                    "IsEnemyPathClear",
+                                    "=",
+                                    "0"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "variables": [
+                            {
+                              "name": "J",
+                              "type": "number",
+                              "value": 0
+                            }
+                          ],
+                          "loopIndexVariable": "J"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "IsEnemyPathClear",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EnemyThreat",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "ToString(StrFind(DraggablePiece.ObjectName(), \"King\"))",
+                            "!=",
+                            "\"-1\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "ToString(StrFind(DraggablePiece.ObjectName(), \"Queen\"))",
+                            "!=",
+                            "\"-1\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "DraggablePiece.ObjectName()",
+                            "=",
+                            "\"White_King_1\""
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyColumnDistance",
+                                "<=",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "NumberVariable"
+                              },
+                              "parameters": [
+                                "EnemyRowDistance",
+                                "<=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "SetBooleanVariable"
+                              },
+                              "parameters": [
+                                "EnemyThreat",
+                                "True",
+                                ""
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Else",
+                      "conditions": [],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnChange",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyRowChange",
+                                    "=",
+                                    "0"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyColumnDistance",
+                                    "=",
+                                    "EnemyRowDistance"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Repeat",
+                              "repeatExpression": "EnemySquaresToCheck",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "StringVariable"
+                                      },
+                                      "parameters": [
+                                        "Board[ToString(DraggablePiece.Grid_X + EnemyColumnDirection * (J + 1)) + \"_\" + ToString(DraggablePiece.Grid_Y + EnemyRowDirection * (J + 1))]",
+                                        "!=",
+                                        "\"0\""
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetNumberVariable"
+                                      },
+                                      "parameters": [
+                                        "IsEnemyPathClear",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "variables": [
+                                {
+                                  "name": "J",
+                                  "type": "number",
+                                  "value": 0
+                                }
+                              ],
+                              "loopIndexVariable": "J"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "NumberVariable"
+                                  },
+                                  "parameters": [
+                                    "IsEnemyPathClear",
+                                    "=",
+                                    "1"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "SetBooleanVariable"
+                                  },
+                                  "parameters": [
+                                    "EnemyThreat",
+                                    "True",
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "EnemyThreat",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "IsKingInCheck",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "SetNumberObjectVariable"
-              },
-              "parameters": [
-                "DraggablePiece_Black",
-                "LastYPosition",
-                "=",
-                "DraggablePiece_Black.Y()"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "IsKingInCheck",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Board[OldKey]",
+                    "=",
+                    "\"B\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringVariable"
+                  },
+                  "parameters": [
+                    "Board[NewKey]",
+                    "=",
+                    "SavedNewSquare"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetX"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black",
+                    "=",
+                    "DraggablePiece_Black.LastXPosition"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetY"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black",
+                    "=",
+                    "DraggablePiece_Black.LastYPosition"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black",
+                    "Grid_X",
+                    "=",
+                    "GridCol"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black",
+                    "Grid_Y",
+                    "=",
+                    "GridRow"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black",
+                    "LastXPosition",
+                    "=",
+                    "DraggablePiece_Black.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "DraggablePiece_Black",
+                    "LastYPosition",
+                    "=",
+                    "DraggablePiece_Black.Y()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "aiGeneratedEventId": "01M0XJTZH5RVG6GY4M5PQZHRGW",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::CompareStrings"
+                      },
+                      "parameters": [
+                        "DraggablePiece_Black.ObjectName()",
+                        "=",
+                        "\"Black_King_1\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "BlackKingCol",
+                        "=",
+                        "GridCol"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "BlackKingRow",
+                        "=",
+                        "GridRow"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
@@ -7698,73 +9799,171 @@
       "variables": [
         {
           "name": "GridCol",
+          "persistentUuid": "2b31a2be-c7c9-462d-8783-d2d5fba1387c",
           "type": "number",
           "value": 0
         },
         {
           "name": "GridRow",
+          "persistentUuid": "8f085cff-6fc5-4dd8-996b-a40c03677f7d",
           "type": "number",
           "value": 0
         },
         {
           "name": "NewKey",
+          "persistentUuid": "68441542-9130-45ea-9e05-e1280d137b15",
           "type": "string",
           "value": ""
         },
         {
           "name": "OldKey",
+          "persistentUuid": "8c55ed5a-c367-4221-8df4-7d52265fe27b",
           "type": "string",
           "value": ""
         },
         {
-          "name": "MoveIsLegal",
+          "name": "IsMoveLegal",
+          "persistentUuid": "b32fdeeb-ed16-4d14-9fde-a4a1f0fadd56",
           "type": "boolean",
           "value": false
         },
         {
-          "name": "ColumnDelta",
+          "name": "ColumnChange",
+          "persistentUuid": "c009c319-e73b-4764-a6d1-01ed31702787",
           "type": "number",
           "value": 0
         },
         {
-          "name": "RowDelta",
+          "name": "RowChange",
+          "persistentUuid": "31cc1c35-3772-4da5-a019-a9692677929f",
           "type": "number",
           "value": 0
         },
         {
-          "name": "AbsColumnDelta",
+          "name": "ColumnDistance",
+          "persistentUuid": "ecdae626-471d-4443-9919-647338dd48ab",
           "type": "number",
           "value": 0
         },
         {
-          "name": "AbsRowDelta",
+          "name": "RowDistance",
+          "persistentUuid": "48c71f0f-563d-475f-b592-9527971352cb",
           "type": "number",
           "value": 0
         },
         {
           "name": "ColumnDirection",
+          "persistentUuid": "28b93c16-933f-42bd-8b86-801acd8bcaa5",
           "type": "number",
           "value": 0
         },
         {
           "name": "RowDirection",
+          "persistentUuid": "ff84b58a-59b2-4ae4-b7f4-632668eb0992",
           "type": "number",
           "value": 0
         },
         {
           "name": "MoveDistance",
+          "persistentUuid": "36e7cb85-32a5-448b-8dd1-90a3fded4855",
           "type": "number",
           "value": 0
         },
         {
           "name": "SquaresToCheck",
+          "persistentUuid": "80b64e3f-04f4-43e9-91a3-542aded9f53d",
           "type": "number",
           "value": 0
         },
         {
-          "name": "PathIsClear",
+          "name": "IsPathClear",
+          "persistentUuid": "b7c1cf4f-e218-43db-b773-176cf479f73d",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "IsKingInCheck",
+          "persistentUuid": "bec79d67-ec59-4c19-b07c-1f941275bfe7",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "KingColumn",
+          "persistentUuid": "ffb6e69f-468f-428a-ad6d-a82c21da14ab",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "KingRow",
+          "persistentUuid": "062cb52b-7a95-4f1a-8ddc-ceabb04e6ced",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyColumnChange",
+          "persistentUuid": "c4d51227-4af3-4883-bc8c-e61c143e7e06",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyRowChange",
+          "persistentUuid": "d655babf-d7c5-45cb-911d-73130259374b",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyColumnDistance",
+          "persistentUuid": "85b27a8c-a19e-4a71-8a50-e2ebb7200de9",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyRowDistance",
+          "persistentUuid": "0a09b25a-a2ee-4ac9-a7c4-dae9ed6d9c85",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyColumnDirection",
+          "persistentUuid": "e9e09cb8-7898-4697-a7de-ed439106e8b7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyRowDirection",
+          "persistentUuid": "d6b41501-0498-4e6e-9983-9e874dc944a4",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyMoveDistance",
+          "persistentUuid": "91aefab0-7000-4ff1-ad5f-af6f0ce159d7",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemySquaresToCheck",
+          "persistentUuid": "0b314856-4e1b-41f4-8def-0efb26914daa",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "EnemyThreat",
+          "persistentUuid": "8f3dafe8-42f6-4876-96df-35e5f402e26d",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "IsEnemyPathClear",
+          "persistentUuid": "edc2f15b-243d-463b-af64-e1d2cf85c461",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "SavedNewSquare",
+          "persistentUuid": "6071bb02-f742-4c18-9faf-0bd2a3d63bfc",
+          "type": "string",
+          "value": ""
         }
       ]
     },
