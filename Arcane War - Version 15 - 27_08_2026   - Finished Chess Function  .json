@@ -1,0 +1,970 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 281,
+    "major": 5,
+    "minor": 6,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "25b28896-0c77-4972-88de-5d027f364392",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "version": "1.0.0",
+    "name": "Arcane War - Version 15 - 23/08/2026   - Finished Chess Function  ",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "assets/Screenshot 2026-05-27 at 10.11.36 AM4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-05-27 at 10.11.36 AM.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/ecbb55ac08668a4cc80851993ca0d328484cf6d364e005a95ad114459f766da3-Screenshot 2026-05-27 at 10.11.36 AM.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_plt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_plt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/bb12b5f078811c3c4492f8a1f786d410563cbfd0c870a2c5691235371af492da-Chess_plt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_pdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_pdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/151767321e648706973fad1445f95ab0d1ffbec24ebb721fe0fdb5d3311583db-Chess_pdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_nlt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_nlt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/2e2904ae344dddd759c3b869841fe345703138ed58b91e38350055e8a63e3a87-Chess_nlt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_ndt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_ndt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/a18c6a8899a16fcf8fbba091a3543479aae35fd6a43462b4a7577cf5f15413b7-Chess_ndt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_blt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_blt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/7dbcd7e37e427d94bf9a2b79806faf00407e0bc32ef8e17025d39a7721b8fb4d-Chess_blt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_bdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_bdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/da36a4ae0a1ab1bcba7b3b2f8fe7b21e7fe632f48a2d6a33eeeeacd4270db4ca-Chess_bdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_rlt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_rlt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/c757f07f5dbfdbf3f5733d024c904c45dc08929661f568b4b06fd856e69bcaa5-Chess_rlt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_rdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_rdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/be82afb5f327cc693033abcf16764a4e52a4d2e06804ac70e21d31e89ae08fbe-Chess_rdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_qlt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_qlt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/cf39a6a5b61c1053a3bf5797770ec6cf5514489a7f9ec4acd7c9053a77e789fb-Chess_qlt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_qdt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_qdt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/eee80adb6eb5813738fdd5b8914ee1774b61083cf3db92266f3e029241b1d44d-Chess_qdt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_klt45.svg4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_klt45.svg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/524597d53e2af0115fc56d87f6b5a32c620ab21e4cd86feb27ac09539489eefd-Chess_klt45.svg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Chess_kdt45.svg (1)4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chess_kdt45.svg (1).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/53cb93e251837fbe34b9eaa28b5af598d530f9f444592d8bbaf6886207239c87-Chess_kdt45.svg (1).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Graduate-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Graduate-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/Kenney/Pixel art/6f90be937f63a6c9500df06e4da70fbe27147c38a70222c4d4102d12cee13ac6_Graduate-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Checkmate! (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (4).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/2f2327d97bc845d03a8410cde9c1b288312030d326547fc7cec70c63cc0746f6-Checkmate! (4).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Checkmate! (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (3).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/a8d1136f537963ffdbc8d314944bb418324ecf6d5da5e612712e6b2ff0f92f1d-Checkmate! (3).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Checkmate! (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (2).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/fce0aeaa2bcfacde804cdace972e5cdb7b87e7843275fde4b1fe02855fd0b78d-Checkmate! (2).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Screenshot 2026-06-16 161237.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-06-16 161237.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/038a9ab7e772a339c5ad5c91a0bf2b003eeb29489897f105236784b659be74b6-Screenshot 2026-06-16 161237.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "assets/Checkmate! (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Checkmate! (5).png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/a57c54a8-1a58-4aa8-9147-b2f06784d23f/resources/c20688d5e0c519ba65837ca4c37bbe107af823a5b92c6c3d132c41311d62c067-Checkmate! (5).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "file": "Screenshot 2026-06-17 124624.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-06-17 124624.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot 2026-06-17 124821.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot 2026-06-17 124821.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2026-06-17 124821.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Screenshot 2026-06-17 124821",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Screenshot 2026-06-17124822.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Screenshot 2026-06-17124822",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (2).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (2).jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (2)2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (2)2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Untitled drawing (2)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Untitled drawing (2)2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (10).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (10).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (9).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (9).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (8).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (8).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (7).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (7).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (6).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (5).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (1)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (2)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (3)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (3)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (4)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (4)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (5)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (5)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (6)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (6)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (6)3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (6)3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (7)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (7)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (8)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (8)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (9)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (9)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (10)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (10)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Copy of Checkmate!.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copy of Checkmate!.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Copy of Checkmate! (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copy of Checkmate! (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Copy of Checkmate! (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copy of Checkmate! (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Copy of Checkmate! (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Copy of Checkmate! (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (20).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (20).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (19).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (19).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (18).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (18).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (17).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (17).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (16).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (15).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (15).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (14).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (14).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (13).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (13).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (12).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (12).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Untitled drawing (11).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Untitled drawing (11).png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start-game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/starting-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/info-scene"
+    }
+  ],
+  "externalEvents": [],
+  "tests": [
+    {
+      "description": "Verifies white starts, only correct color draggable, and turn switches after committed move.",
+      "lastRunAt": 1789647916145,
+      "lastRunDurationMs": 1227,
+      "lastRunFramesExecuted": 15,
+      "lastRunStatus": "passed",
+      "name": "Turn-based play: white starts and alternates",
+      "type": "gameplay",
+      "source": [
+        "await harness.goToScene('Start Game');",
+        "await harness.stepFrames(5);",
+        "",
+        "// White starts",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === true, 'WhiteTurn starts True (white moves first)');",
+        "",
+        "const wp = harness.getObjects('White_Pawn_1')[0];",
+        "const bp = harness.getObjects('Black_Pawn_1')[0];",
+        "harness.assert(wp.behaviors['Draggable'].act === true, 'White piece is draggable on white turn');",
+        "harness.assert(bp.behaviors['Draggable'].act === false, 'Black piece is NOT draggable on white turn');",
+        "",
+        "// Drag White_Pawn_1 from square (6,0) forward one square to (5,0)",
+        "const startX = wp.centerX;",
+        "const startY = wp.centerY;",
+        "const targetX = 261.75 + 45.125;",
+        "const targetY = 431.25 + 45.125;",
+        "",
+        "harness.touchStart(1, startX, startY);",
+        "await harness.stepFrames(2);",
+        "harness.touchMove(1, targetX, targetY);",
+        "await harness.stepFrames(2);",
+        "harness.touchEnd(1);",
+        "await harness.stepFrames(5);",
+        "",
+        "// The white pawn should have committed the move to square (0,5)",
+        "const wpAfter = harness.getObjects('White_Pawn_1')[0];",
+        "const gx = harness.getObjectVariable(wpAfter.id, 'Grid_X');",
+        "const gy = harness.getObjectVariable(wpAfter.id, 'Grid_Y');",
+        "harness.assert(gx?.value === 0 && gy?.value === 5, 'White pawn committed the move to square (0,5)');",
+        "",
+        "// Turn should now be black's",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === false, 'WhiteTurn becomes False after white moves');",
+        "",
+        "const bp2 = harness.getObjects('Black_Pawn_1')[0];",
+        "const wp2 = harness.getObjects('White_Pawn_1')[0];",
+        "harness.assert(bp2.behaviors['Draggable'].act === true, 'Black piece is draggable after white moves');",
+        "harness.assert(wp2.behaviors['Draggable'].act === false, 'White piece is NOT draggable after white moves');"
+      ]
+    },
+    {
+      "description": "Verifies turns alternate indefinitely: white, black, white, black over three full cycles.",
+      "lastRunAt": 1789633982761,
+      "lastRunDurationMs": 973,
+      "lastRunFramesExecuted": 60,
+      "lastRunStatus": "passed",
+      "name": "Turn alternation over multiple cycles",
+      "type": "gameplay",
+      "source": [
+        "async function dragPiece(harness, objName, tx, ty) {",
+        "  const p = harness.getObjects(objName)[0];",
+        "  harness.touchStart(1, p.centerX, p.centerY);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchMove(1, tx, ty);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchEnd(1);",
+        "  await harness.stepFrames(5);",
+        "}",
+        "",
+        "await harness.goToScene('Start Game');",
+        "await harness.stepFrames(5);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === true, 'White starts');",
+        "",
+        "// Cycle 1",
+        "await dragPiece(harness, 'White_Pawn_1', 306.875, 476.375);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === false, 'After white move 1: black turn');",
+        "harness.assert(harness.getObjects('Black_Pawn_1')[0].behaviors['Draggable'].act === true, 'After white move 1: black draggable');",
+        "",
+        "await dragPiece(harness, 'Black_Pawn_1', 306.875, 205.625);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === true, 'After black move 1: white turn');",
+        "harness.assert(harness.getObjects('White_Pawn_2')[0].behaviors['Draggable'].act === true, 'After black move 1: white draggable');",
+        "",
+        "// Cycle 2 (this is where it broke before)",
+        "await dragPiece(harness, 'White_Pawn_2', 397.125, 476.375);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === false, 'After white move 2: black turn');",
+        "harness.assert(harness.getObjects('Black_Pawn_2')[0].behaviors['Draggable'].act === true, 'After white move 2: black draggable');",
+        "",
+        "await dragPiece(harness, 'Black_Pawn_2', 397.125, 205.625);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === true, 'After black move 2: white turn');",
+        "",
+        "// Cycle 3 — prove alternation continues indefinitely",
+        "await dragPiece(harness, 'White_Pawn_3', 487.375, 476.375);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === false, 'After white move 3: black turn');",
+        "await dragPiece(harness, 'Black_Pawn_3', 487.375, 205.625);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === true, 'After black move 3: white turn');"
+      ]
+    },
+    {
+      "description": "Verifies captures delete the piece from the field and play continues normally.",
+      "lastRunAt": 1789295222551,
+      "lastRunDurationMs": 1304,
+      "lastRunFramesExecuted": 89,
+      "lastRunStatus": "passed",
+      "name": "Capture removes piece from board",
+      "type": "gameplay",
+      "source": [
+        "async function dragPiece(harness, objName, tx, ty) {",
+        "  const p = harness.getObjects(objName)[0];",
+        "  harness.touchStart(1, p.centerX, p.centerY);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchMove(1, tx, ty);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchEnd(1);",
+        "  await harness.stepFrames(5);",
+        "}",
+        "",
+        "await harness.goToScene('Start Game');",
+        "await harness.stepFrames(5);",
+        "",
+        "// Build up to a capture: White_Pawn_1 to (0,4), Black_Pawn_2 to (1,3)",
+        "await dragPiece(harness, 'White_Pawn_1', 306.875, 476.375);",
+        "await dragPiece(harness, 'Black_Pawn_2', 397.125, 205.625);",
+        "await dragPiece(harness, 'White_Pawn_1', 306.875, 386.125);",
+        "await dragPiece(harness, 'Black_Pawn_2', 397.125, 295.875);",
+        "",
+        "// White captures Black_Pawn_2 on (1,3)",
+        "await dragPiece(harness, 'White_Pawn_1', 397.125, 295.875);",
+        "await harness.stepFrames(20);",
+        "",
+        "harness.assert(harness.getObjects('Black_Pawn_2').length === 0, 'Captured piece is removed from the playing field');",
+        "harness.assert(harness.getSceneVariable('CapturedBlack')?.value === 1, 'CapturedBlack counter = 1');",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === false, 'Turn passes to black after the capture');",
+        "const wp = harness.getObjects('White_Pawn_1')[0];",
+        "harness.assert(harness.getObjectVariable(wp.id, 'Grid_X')?.value === 1 && harness.getObjectVariable(wp.id, 'Grid_Y')?.value === 3, 'Capturer occupies the square');",
+        "",
+        "// Game continues normally after the capture: black pawn (0,1)->(0,2), then white pawn (1,6)->(1,5)",
+        "await dragPiece(harness, 'Black_Pawn_1', 306.875, 205.625);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === true, 'Black can move after a capture; turn returns to white');",
+        "const bp1 = harness.getObjects('Black_Pawn_1')[0];",
+        "harness.assert(harness.getObjectVariable(bp1.id, 'Grid_Y')?.value === 2, 'Black pawn actually moved');",
+        "",
+        "await dragPiece(harness, 'White_Pawn_2', 397.125, 476.375);",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === false, 'White can move; alternation continues after captures');"
+      ]
+    },
+    {
+      "description": "Verifies Fool's Mate triggers the Checkmate_Message sprite and freezes the game.",
+      "lastRunAt": 1789643690639,
+      "lastRunDurationMs": 1697,
+      "lastRunFramesExecuted": 222,
+      "lastRunStatus": "passed",
+      "name": "Checkmate message on Fool's Mate",
+      "type": "gameplay",
+      "source": [
+        "async function dragPiece(harness, objName, tx, ty) {",
+        "  const p = harness.getObjects(objName)[0];",
+        "  harness.touchStart(1, p.centerX, p.centerY);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchMove(1, tx, ty);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchEnd(1);",
+        "  await harness.stepFrames(5);",
+        "}",
+        "",
+        "await harness.goToScene('Start Game');",
+        "await harness.stepFrames(5);",
+        "",
+        "const sprite = () => harness.getObjects('Checkmate_Message')[0];",
+        "harness.assert(sprite()?.hidden === true, 'Checkmate_Message is invisible at game start');",
+        "",
+        "// Fool's Mate: 1.f3 e5 2.g4 Qh4#",
+        "await dragPiece(harness, 'White_Pawn_6', 758.125, 476.375);   // f3",
+        "await dragPiece(harness, 'Black_Pawn_5', 667.875, 295.875);   // e5",
+        "await dragPiece(harness, 'White_Pawn_7', 848.375, 386.125);   // g4",
+        "harness.assert(sprite()?.hidden === true, 'Sprite still hidden while the game is only progressing (no check)');",
+        "await dragPiece(harness, 'Black_Queen_1', 938.625, 386.125);  // Qh4# — checkmate",
+        "await harness.stepFrames(180);",
+        "",
+        "harness.assert(sprite()?.hidden === false, 'Checkmate_Message appears on checkmate');",
+        "harness.assert(harness.getSceneVariable('GameOver')?.value === true, 'GameOver flag set on checkmate');",
+        "const wp = harness.getObjects('White_Pawn_6')[0];",
+        "harness.assert(wp.behaviors['Draggable'].act === false, 'No pieces can be dragged after checkmate');",
+        "harness.assert(harness.getSceneVariable('CapturedBlack')?.value === 0, 'No pieces were lost to the scan');",
+        "const bpq = harness.getObjects('Black_Queen_1')[0];",
+        "harness.assert(Math.abs(bpq.centerX - 938.625) < 6 && Math.abs(bpq.centerY - 386.125) < 6, 'Mating queen stays on h4');"
+      ]
+    },
+    {
+      "description": "Verifies escapes from check by capture and by retreat work, with no false checkmate.",
+      "lastRunAt": 1789295191515,
+      "lastRunDurationMs": 1752,
+      "lastRunFramesExecuted": 358,
+      "lastRunStatus": "passed",
+      "name": "Check escapes work",
+      "type": "gameplay",
+      "source": [
+        "async function dragPiece(harness, objName, tx, ty) {",
+        "  const p = harness.getObjects(objName)[0];",
+        "  harness.touchStart(1, p.centerX, p.centerY);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchMove(1, tx, ty);",
+        "  await harness.stepFrames(2);",
+        "  harness.touchEnd(1);",
+        "  await harness.stepFrames(5);",
+        "}",
+        "",
+        "await harness.goToScene('Start Game');",
+        "await harness.stepFrames(5);",
+        "const sprite = () => harness.getObjects('Checkmate_Message')[0];",
+        "",
+        "await dragPiece(harness, 'White_Pawn_5', 667.875, 386.125);   // 1.e4",
+        "await dragPiece(harness, 'Black_Pawn_5', 667.875, 295.875);   // 1...e5",
+        "await dragPiece(harness, 'White_Queen_1', 938.625, 295.875);  // 2.Qh5",
+        "await dragPiece(harness, 'Black_Horse_1', 487.375, 205.625);  // 2...Nc6",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === true, 'Nc6 committed');",
+        "",
+        "await dragPiece(harness, 'White_Queen_1', 758.125, 115.375);  // 3.Qxf7+ CHECK by capture",
+        "await harness.stepFrames(100);",
+        "harness.assert(sprite()?.hidden === true, 'No false checkmate when an escape exists');",
+        "harness.assert(harness.getSceneVariable('GameOver')?.value === false, 'Game not frozen on a normal check');",
+        "const q = harness.getObjects('White_Queen_1')[0];",
+        "harness.assert(harness.getObjectVariable(q.id, 'Grid_X')?.value === 5 && harness.getObjectVariable(q.id, 'Grid_Y')?.value === 1, 'Queen on f7 gives check');",
+        "",
+        "await dragPiece(harness, 'Black_King_1', 758.125, 115.375);   // 3...Kxf7 escape by CAPTURE",
+        "await harness.stepFrames(40);",
+        "const bk = harness.getObjects('Black_King_1')[0];",
+        "harness.assert(harness.getObjectVariable(bk.id, 'Grid_X')?.value === 5 && harness.getObjectVariable(bk.id, 'Grid_Y')?.value === 1, 'King captured the checker (escape by capture works)');",
+        "harness.assert(harness.getObjects('White_Queen_1').length === 0, 'Checking queen removed');",
+        "harness.assert(sprite()?.hidden === true, 'Sprite still hidden after the escape');",
+        "",
+        "await dragPiece(harness, 'White_Bishop_2', 487.375, 386.125); // 4.Bc4+ CHECK",
+        "await harness.stepFrames(100);",
+        "harness.assert(sprite()?.hidden === true, 'No false checkmate after Bc4+');",
+        "harness.assert(harness.getSceneVariable('WhiteTurn')?.value === false, 'Black to move after Bc4+');",
+        "",
+        "await dragPiece(harness, 'Black_King_1', 667.875, 25.125);    // 4...Ke8 escape by RETREAT",
+        "await harness.stepFrames(40);",
+        "const bk2 = harness.getObjects('Black_King_1')[0];",
+        "harness.assert(harness.getObjectVariable(bk2.id, 'Grid_X')?.value === 4 && harness.getObjectVariable(bk2.id, 'Grid_Y')?.value === 0, 'King retreated to e8 (escape by retreat works)');",
+        "harness.assert(sprite()?.hidden === true, 'Sprite remains hidden — no false checkmate');",
+        "harness.assert(harness.getSceneVariable('GameOver')?.value === false, 'Game continues normally');"
+      ]
+    }
+  ],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pixelperfectmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/snaptogrid"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    }
+  ],
+  "externalLayouts": []
+}
